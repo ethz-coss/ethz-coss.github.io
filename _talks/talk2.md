@@ -1,7 +1,7 @@
 ---
 name: Condimentum Vitae Sapien Pellentesque
 speakers:
-  - Tolga Philip
+  - Cesare Carissimo
   - Alex Rosales
 categories:
   - Cat A

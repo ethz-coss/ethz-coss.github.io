@@ -1,7 +1,7 @@
 ---
 name: Vim Impetus Placerat Cotidieque Ad
 speakers:
-  - Tolga Philip
+  - Cesare Carissimo
 categories:
   - Cat B
   - Talk
