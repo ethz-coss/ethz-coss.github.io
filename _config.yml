@@ -68,12 +68,12 @@ conference:
       # img: ''
       url: 'https://coss.ethz.ch/'
     links:
-      - name: Program
-        relative_url: /program/
-      - name: Talks
-        relative_url: /talks/
-      - name: Speakers
-        relative_url: /speakers/
+#      - name: Program
+#        relative_url: /program/
+#      - name: Talks
+#        relative_url: /talks/
+#      - name: Speakers
+#        relative_url: /speakers/
       - name: Location
         relative_url: /location/
 #      - name: Previous Editions
