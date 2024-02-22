@@ -1,4 +1,4 @@
-title: "Smarter Societies Back to the Future"
+title: "Smarter Societies: Back to the Future"
 preposition: at
 description: >-
   at ETH Zurich, 10-14 February 2025
@@ -64,9 +64,9 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name: Digital Society Switzerland
+      name: COSS - ETHZ
       # img: ''
-      url: 'https://digitale-gesellschaft.ch/'
+      url: 'https://coss.ethz.ch/'
     links:
       - name: Program
         relative_url: /program/
@@ -76,14 +76,14 @@ conference:
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
-      - name: Previous Editions
-        menu:
-          - name: 2020 (current)
-            disabled: true
-          - name: 2019
-            relative_url: /2019/
-          - name: 2018
-            relative_url: /2018/
+#      - name: Previous Editions
+#        menu:
+#          - name: 2020 (current)
+#            disabled: true
+#          - name: 2019
+#            relative_url: /2019/
+#          - name: 2018
+#            relative_url: /2018/
 
   # Link Preview for Sharing
   link_preview:
