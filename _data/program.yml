@@ -1,7 +1,7 @@
 days:
-#- name: Monday
-#  abbr: Mo
-#  date: 2020-01-31
+- name: Monday
+  abbr: Mo
+  date: 2025-02-10
 #  rooms:
 #  - name: Room A
 #    talks:
@@ -23,3 +23,15 @@ days:
 #      - name: Eu Nisl Nunc Mi Ipsum Faucibus
 #        time_start: '13:30'
 #        time_end: '14:30'
+- name: Tuesday
+  abbr: Tues
+  date: 2025-02-11
+- name: Wednesday
+  abbr: Wed
+  date: 2025-02-12
+- name: Thursday
+  abbr: Thur
+  date: 2025-02-13
+- name: Friday
+  abbr: Fri
+  date: 2025-02-14
