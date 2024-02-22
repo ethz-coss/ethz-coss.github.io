@@ -5,4 +5,4 @@ Digital, information and communication technologies, together with Big Data, the
 
 This workshop aims at reflecting on the progress made in the past 20 years and tries to develop a vision for the future. It will provide ample opportunities for a critical reflection of the scientific investigation methods and technological engineering approaches we pursue. We aim for constructive criticism, and for stimulating debate and exchange, i.e. for an overall inspiring and enriching experience.
 
-!()[zurich_workshop_image.jpeg]
+![](zurich_workshop_image.jpeg)
