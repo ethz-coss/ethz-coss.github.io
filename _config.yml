@@ -98,28 +98,21 @@ conference:
     # logo:
     #   img: ''
     links:
-      - name: Program
-        relative_url: /program/
-      - name: How to get there
+#      - name: Program
+#        relative_url: /program/
+      - name: Location
         relative_url: /location/
-      - name: Tickets
-        disabled: true
-        absolute_url: ''
 
   # Information boxes
   info_bars:
-    - title: Welcome to the Conference Theme for Jekyll!
+    - title: Welcome to our Workshop Page!
       color: primary
       main_only: true
       text: |
-        The Theme was originally made for the [Winterkongress](https://www.digitale-gesellschaft.ch/kongress/), a yearly conference of the [Digital Society Switzerland](https://digitale-gesellschaft.ch/).
-
-        ---
-
-        See the [README](github.com/DigitaleGesellschaft/jekyll-theme-conference/) on the project's GitHub repository for further information on how to configure and adapt it to your needs.
-    - text: This is just some random content for demonstration purposes.
-      color: warning
-      pages_only: true
+        We will be updating this with speakers and talks as we receive answers from our invitees.
+#    - text: This is just some random content for demonstration purposes.
+#      color: warning
+#      pages_only: true
 
   # Live indications
   live:
@@ -162,13 +155,13 @@ conference:
     # display it.
     map:
       # Initial map center point
-      home_coord: 47.37808, 8.53935
+      home_coord: 47.37616814220516, 8.546753252441231
       # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
       # The following do match the Bootstrap design not too badly:
       #   - Thunderforest.Neighbourhood
       #   - Esri.WorldTopoMap
       map_provider: "OpenStreetMap.Mapnik"
-      default_zoom: 17
+      default_zoom: 10
 
 
   program:
