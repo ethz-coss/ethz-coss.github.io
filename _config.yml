@@ -51,6 +51,11 @@ defaults:
       type: rooms
     values:
       layout: room
+  - scope:
+      path: ""
+      type: special-issue
+    values:
+      layout: default
 
 
 conference:
