@@ -32,7 +32,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   rooms:
-    output: true
+    output: False
     permalink: /:collection/:title/
 
 defaults:
@@ -55,7 +55,7 @@ defaults:
       path: ""
       type: special-issue
     values:
-      layout: room
+      layout: default
 
 
 conference:
