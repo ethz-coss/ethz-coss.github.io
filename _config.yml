@@ -32,7 +32,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   rooms:
-    output: False
+    output: true
     permalink: /:collection/:title/
 
 defaults:
@@ -155,7 +155,7 @@ conference:
 
   location:
     # Disable links to locations
-    hide: false
+    hide: true # NOTE: set to false to show the rooms again
     # URL of location / room overview page
     url: '/location'
     # Main page title shown on location/room navigation bar
