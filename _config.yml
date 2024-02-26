@@ -55,7 +55,7 @@ defaults:
       path: ""
       type: special-issue
     values:
-      layout: default
+      layout: room
 
 
 conference:
