@@ -2,6 +2,7 @@
 layout: home
 ---
 ![](zurich_workshop_image.jpeg)
+https://www.alamy.com/beautiful-aerial-drone-view-of-zurich-city-and-lake-during-summer-time-in-switzerland-image331447361.html
 
 Digital, information and communication technologies, together with Big Data, the Internet of Things, and Artificial Intelligence, are reshaping almost every aspect of our societies. From traffic to logistics, from mobility to smart cities and societies, much of this gears towards more predictability, controllability, and automation, using digital twins and many other approaches. Optimizing performance, sustainability, resilience, and health are often stated goals. But what roles will complexity and collective intelligence, democracy and human rights, agency and freedom, co-creation and co-evolution play? And what do scientific approaches, from data to complexity to computational social science, from network to transportation to game theory, and from agent-based to ML- to AI-based modeling, have to say on this? 
 
