@@ -1,9 +1,10 @@
 title: "Back to the Future"
 preposition: at
 description: >-
-  Smarter Cities and Societies: Back to the Future. 
-  What We Can and Cannot Optimize For, 
-  Date: 10-14 February 2025, 
+  Smarter Cities and Societies: Back to the Future. What We Can and Cannot Optimize For.
+date: >-
+  Date: 10-14 February 2025
+venue: >-
   Venue: ETH Zurich, Switzerland
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://backtothefuture.com" # the base hostname & protocol for your site

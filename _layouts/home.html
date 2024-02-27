@@ -16,6 +16,16 @@
         {{ site.description | markdownify | replace: '<p>', '<p class="lead">' }}
       </p>
     {% endif %}
+    {% if site.date != none %}
+      <p class="lead">
+        {{ site.date | markdownify | replace: '<p>', '<p class="lead">' }}
+      </p>
+    {% endif %}
+    {% if site.venue != none %}
+      <p class="lead">
+        {{ site.date | markdownify | replace: '<p>', '<p class="lead">' }}
+      </p>
+    {% endif %}
 
     <hr class="my-4">
 
