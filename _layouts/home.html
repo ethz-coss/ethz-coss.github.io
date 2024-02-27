@@ -1,7 +1,7 @@
 {% include partials/header.html %}
 
   <div class="jumbotron">
-    <p class="lead"> Smarter Cities and Societies. </p>
+    <h2 class="display-3"> Smarter Cities and Societies. </h2>
     <h1 class="display-3">
       {% if site.conference.main.logo.img %}
         <img src="{{ site.conference.main.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
@@ -12,12 +12,12 @@
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="lead"> What We Can and Cannot Optimize For. </p>
-    {% if site.description != none %}
-      <p class="lead">
-        {{ site.description | markdownify | replace: '<p>', '<p class="lead">' }}
-      </p>
-    {% endif %}
+    <h2 class="display-3"> What We Can and Cannot Optimize For. </h2>
+<!--    {% if site.description != none %}-->
+<!--      <p class="lead">-->
+<!--        {{ site.description | markdownify | replace: '<p>', '<p class="lead">' }}-->
+<!--      </p>-->
+<!--    {% endif %}-->
     {% if site.date != none %}
       <p class="lead">
         {{ site.date | markdownify | replace: '<p>', '<p class="lead">' }}
