@@ -113,6 +113,8 @@ conference:
 #        relative_url: /program/
       - name: Location
         relative_url: /location/
+      - name: Speakers  
+        relative_url: /speakers/
 #      - name: Special Issue
 #        relative_url: /special-issue/
 
@@ -122,7 +124,7 @@ conference:
       color: primary
       main_only: true
       text: |
-        We will be updating this with speakers and talks as we receive answers from our invitees.
+        We have new confirmed speakers, check them out in the speakers page.
 #    - text: This is just some random content for demonstration purposes.
 #      color: warning
 #      pages_only: true
