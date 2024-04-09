@@ -12,7 +12,7 @@ existing_files = glob.glob("_speakers/*.md")
 print(existing_files)
 
 for i, row in confirmed_speakers.iterrows():
-    string = f"--- \n name: {row['First name']} {row['Surname']} \n first_name: {row['First name']} \n last_name: {row['Surname']} \n ---"
+    string = f"--- \nname: {row['First name']} {row['Surname']} \nfirst_name: {row['First name']}\nlast_name: {row['Surname']} \n---"
 
     path = f"_speakers/{row['First name']}_{row['Surname']}.md"
 

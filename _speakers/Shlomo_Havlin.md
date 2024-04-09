@@ -1,5 +1,5 @@
 --- 
- name: Shlomo Havlin 
- first_name: Shlomo 
- last_name: Havlin 
- ---
+name: Shlomo Havlin 
+first_name: Shlomo
+last_name: Havlin 
+---
