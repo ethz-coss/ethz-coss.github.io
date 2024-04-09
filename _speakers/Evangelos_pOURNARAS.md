@@ -1,5 +1,5 @@
 --- 
-name: Evangelos pOURNARAS 
+name: Evangelos Pournaras
 first_name: Evangelos
-last_name: pOURNARAS 
+last_name: Pournaras 
 ---

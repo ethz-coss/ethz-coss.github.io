@@ -1,5 +1,5 @@
 --- 
-name: Denise PUMAIN 
+name: Denise Pumain 
 first_name: Denise
-last_name: PUMAIN 
+last_name: Pumain 
 ---
