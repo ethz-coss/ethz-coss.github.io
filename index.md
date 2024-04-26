@@ -10,4 +10,5 @@ This workshop aims at reflecting on the progress made in the past 20 years and t
 
 In case of any questions, please do not hesitate to contact us at: coss-workshop@ethz.ch 
 
+This workshop is partially supported by the project CoCi – Co-Evolving City Life, which has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (grant agreement No 833168).
 ![](LOGO_EU_ERC_CoCi_V2.png)
