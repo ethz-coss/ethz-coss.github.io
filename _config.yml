@@ -74,7 +74,7 @@ conference:
   navigation:
     logo:
       name: COSS - ETHZ
-      img: 'LOGO_EU_ERC_CoCi_V2.png'
+#      img: 'LOGO_EU_ERC_CoCi_V2.png'
       url: 'https://coss.ethz.ch/'
     links:
 #      - name: Program
@@ -107,7 +107,7 @@ conference:
   # Main landing page
   main:
     logo:
-      img: 'LOGO_EU_ERC_CoCi_V2.png'
+#      img: 'LOGO_EU_ERC_CoCi_V2.png'
     links:
 #      - name: Program
 #        relative_url: /program/
