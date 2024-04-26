@@ -106,8 +106,8 @@ conference:
 
   # Main landing page
   main:
-     logo:
-       img: 'LOGO_EU_ERC_CoCi_V2.png'
+    logo:
+      img: 'LOGO_EU_ERC_CoCi_V2.png'
     links:
 #      - name: Program
 #        relative_url: /program/
