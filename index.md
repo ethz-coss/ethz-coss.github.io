@@ -9,3 +9,5 @@ Digital, information and communication technologies, together with Big Data, the
 This workshop aims at reflecting on the progress made in the past 20 years and tries to develop a vision for the future. It will provide ample opportunities for a critical reflection of the scientific investigation methods and technological engineering approaches we pursue. We aim for constructive criticism, and for stimulating debate and exchange, i.e. for an overall inspiring and enriching experience.
 
 In case of any questions, please do not hesitate to contact us at: coss-workshop@ethz.ch 
+
+![](assets/images/LOGO_EU_ERC_CoCi_V2.png)

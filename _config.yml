@@ -74,7 +74,7 @@ conference:
   navigation:
     logo:
       name: COSS - ETHZ
-      # img: ''
+      img: 'LOGO_EU_ERC_CoCi_V2.png'
       url: 'https://coss.ethz.ch/'
     links:
 #      - name: Program
