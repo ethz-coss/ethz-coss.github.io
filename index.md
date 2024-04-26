@@ -10,4 +10,4 @@ This workshop aims at reflecting on the progress made in the past 20 years and t
 
 In case of any questions, please do not hesitate to contact us at: coss-workshop@ethz.ch 
 
-![](assets/images/LOGO_EU_ERC_CoCi_V2.png)
+![](/assets/images/LOGO_EU_ERC_CoCi_V2.png)
