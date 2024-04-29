@@ -15,4 +15,4 @@ In case of any questions, please do not hesitate to contact us at: coss-workshop
 This workshop is partially supported by the project CoCi – Co-Evolving City Life, which has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (grant agreement No 833168).
 
 
-<img src="LOGO_EU_ERC_CoCi_V2.png" alt="logo" width="200"/>
+<img src="LOGO_EU_ERC_CoCi_V2.png" alt="logo" width="800"/>
