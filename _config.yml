@@ -147,8 +147,6 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Presentation
-        color: info
 
     # Hide icons on talk overview page
     hide_icons: false
