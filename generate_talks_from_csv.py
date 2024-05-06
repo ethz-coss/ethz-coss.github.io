@@ -8,7 +8,7 @@ specified_talks = confirmed_speakers.loc[confirmed_speakers["What is the tentati
 
 import glob
 
-existing_files = glob.glob("_speakers/*.md")
+existing_files = glob.glob("_talks/*.md")
 print(existing_files)
 
 for i, row in specified_talks.iterrows():
@@ -16,8 +16,11 @@ for i, row in specified_talks.iterrows():
     string = f"--- " \
              f"\nname: {row['What is the tentative title of your talk?']} " \
              f"\nspeakers: " \
-             f"\n    - {row['Firstname']} {row['Surname']}" \
-             f"\n---"
+             f"\n  - {row['Firstname']} {row['Surname']}" \
+             f"\ncategories:" \
+             f"\n  - Presentation" \
+             f"\n---" \
+             f"\n\n{row['What is the tentative title of your talk?']}"
     """
     Here we can add many more details that we scrape from the CSV
     like picture

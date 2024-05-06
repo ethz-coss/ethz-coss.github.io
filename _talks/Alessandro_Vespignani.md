@@ -6,4 +6,4 @@ categories:
   - Presentation
 ---
 
-Modeling and decision making in complex societies 
+Modeling and decision making in complex societies
