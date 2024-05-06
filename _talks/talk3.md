@@ -1,12 +1,12 @@
 ---
 name: Arcu Non Odio
 speakers:
-  - Alex Rosales
+  - Cesare Carissimo
 categories:
   - Cat A
   - Talk
 links:
-  - name: Recodring
+  - name: Recording
     icon: video
     absolute_url: https://media.ccc.de/
   - name: Wikipedia
