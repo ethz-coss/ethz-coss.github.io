@@ -13,8 +13,10 @@ print(existing_files)
 
 for i, row in specified_talks.iterrows():
 
+    talk_title = row['What is the tentative title of your talk?'].replace(":", "-")
+
     string = f"--- " \
-             f"\nname: {row['What is the tentative title of your talk?']} " \
+             f"\nname: {talk_title} " \
              f"\nspeakers: " \
              f"\n  - {row['Firstname']} {row['Surname']}" \
              f"\ncategories:" \
