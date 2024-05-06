@@ -1,7 +1,7 @@
 ---
 name: Arcu Non Odio
 speakers:
-  - Cesare Carissimo
+  - Dirk Helbing
 categories:
   - Cat A
   - Talk
