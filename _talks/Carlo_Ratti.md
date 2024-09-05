@@ -6,4 +6,4 @@ categories:
   - Presentation
 ---
 
-tbd
+tbd - Carlo Ratti

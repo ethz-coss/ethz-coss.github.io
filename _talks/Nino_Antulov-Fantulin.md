@@ -1,9 +1,9 @@
 --- 
-name: ML and complexity 
+name: Machine Learning and Complexity 
 speakers: 
   - Nino Antulov-Fantulin
 categories:
   - Presentation
 ---
 
-ML and complexity
+Machine Learning and Complexity

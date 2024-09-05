@@ -1,9 +1,9 @@
 --- 
-name: Traffic of many autonomous drones in 2+ dimensions 
+name: Traffic of Many Autonomous Drones in 2+ Dimensions 
 speakers: 
   - Tamas Vicsek
 categories:
   - Presentation
 ---
 
-Traffic of many autonomous drones in 2+ dimensions
+Traffic of Many Autonomous Drones in 2+ Dimensions

@@ -1,9 +1,9 @@
 --- 
-name: Economic crime as a social phenomenon 
+name: Economic Crime as a Social Phenomenon 
 speakers: 
   - János Kertész
 categories:
   - Presentation
 ---
 
-Economic crime as a social phenomenon
+Economic Crime as a Social Phenomenon

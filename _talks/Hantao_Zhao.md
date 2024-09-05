@@ -6,4 +6,4 @@ categories:
   - Presentation
 ---
 
-Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality: A Human-Centric Approach to Urban Innovation
+Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality- A Human-Centric Approach to Urban Innovation

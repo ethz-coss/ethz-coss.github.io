@@ -1,9 +1,9 @@
 --- 
-name: Modeling the global economy 
+name: Modeling the Global Economy  
 speakers: 
   - Doyne Farmer
 categories:
   - Presentation
 ---
 
-Modeling the global economy
+Modeling the Global Economy 

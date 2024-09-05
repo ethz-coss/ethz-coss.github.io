@@ -1,9 +1,9 @@
 --- 
-name: Smart technology, trivial ethics- Proposing de-trivialization and academic rigor for ethics 
+name: Smart Technology, Trivial Ethics- Proposing De-Trivialization and Academic Rigor for Ethics 
 speakers: 
   - Peter Seele
 categories:
   - Presentation
 ---
 
-Smart technology, trivial ethics: Proposing de-trivialization and academic rigor for ethics
+Smart Technology, Trivial Ethics- Proposing De-Trivialization and Academic Rigor for Ethics

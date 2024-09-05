@@ -1,9 +1,9 @@
 --- 
-name: Modeling and decision making in complex societies 
+name: Modeling and Decision Making in Complex Societies 
 speakers: 
   - Alessandro Vespignani
 categories:
   - Presentation
 ---
 
-Modeling and decision making in complex societies
+Modeling and Decision Making in Complex Societies

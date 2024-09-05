@@ -1,30 +1,26 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - AllParticipants_050924.csv")
-confirmed_speakers = df.loc[df["Will attend?"]=="Yes"]
-specified_talks = confirmed_speakers.loc[confirmed_speakers["What is the tentative title of your talk?"] != "tbd"]
-
-# print(confirmed_speakers)
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_050924_v2.csv")
 
 import glob
 
 existing_files = glob.glob("_talks/*.md")
 print(existing_files)
 
-for i, row in confirmed_speakers.iterrows():
+for i, row in df.iterrows():
 
-    talk_title = row['What is the tentative title of your talk?'].replace(":", "-")
+    talk_title = str(row['Tentative Title']).replace(":", "-")
     if talk_title == "tbd":
-        talk_title = f"tbd - {row['Firstname']} {row['Surname']}"
+        talk_title = f"tbd - {row['First Name']} {row['Last Name']}"
 
     string = f"--- " \
              f"\nname: {talk_title} " \
              f"\nspeakers: " \
-             f"\n  - {row['Firstname']} {row['Surname']}" \
+             f"\n  - {row['First Name']} {row['Last Name']}" \
              f"\ncategories:" \
              f"\n  - Presentation" \
              f"\n---" \
-             f"\n\n{row['What is the tentative title of your talk?']}"
+             f"\n\n{talk_title}"
     """
     Here we can add many more details that we scrape from the CSV
     like picture
@@ -35,12 +31,12 @@ for i, row in confirmed_speakers.iterrows():
     Just need to figure out how they will be displayed
     I think it is in _layouts speaker.html
     """
-    path = f"_talks/{row['Firstname']}_{row['Surname']}.md"
+    path = f"_talks/{row['First Name']}_{row['Last Name']}.md"
 
     if path not in existing_files:
         f = open(path, "a")
         f.write(string)
         f.close()
 
-print("There are", len(confirmed_speakers), "confirmed speakers")
-print("There are", len(specified_talks), "specified talks")
+# print("There are", len(confirmed_speakers), "confirmed speakers")
+# print("There are", len(specified_talks), "specified talks")

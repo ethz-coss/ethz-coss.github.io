@@ -1,9 +1,9 @@
 --- 
-name: Anticipation heuristics and prediction horizons of automated vehicles in the presence of delays- Will it be safer than human driving? 
+name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays- Will It Be Safer than Human Driving? 
 speakers: 
   - Martin Treiber
 categories:
   - Presentation
 ---
 
-Anticipation heuristics and prediction horizons of automated vehicles in the presence of delays: Will it be safer than human driving?
+Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays- Will It Be Safer than Human Driving?

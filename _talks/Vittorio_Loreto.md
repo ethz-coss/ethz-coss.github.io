@@ -1,9 +1,9 @@
 --- 
-name: New tools for urban regeneration  
+name: New Tools for Urban Regeneration 
 speakers: 
   - Vittorio Loreto
 categories:
   - Presentation
 ---
 
-New tools for urban regeneration 
+New Tools for Urban Regeneration

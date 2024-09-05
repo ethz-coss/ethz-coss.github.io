@@ -1,9 +1,9 @@
 --- 
-name: Symmetry breaking in optimal transport networks 
+name: Symmetry Breaking in Optimal Transport Networks 
 speakers: 
   - Santo Fortunato
 categories:
   - Presentation
 ---
 
-Symmetry breaking in optimal transport networks
+Symmetry Breaking in Optimal Transport Networks

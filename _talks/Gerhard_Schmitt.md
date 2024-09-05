@@ -6,4 +6,4 @@ categories:
   - Presentation
 ---
 
-Future Cities: Governance, Responsiveness, Generativity
+Future Cities- Governance, Responsiveness, Generativity

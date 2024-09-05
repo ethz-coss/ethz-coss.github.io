@@ -1,9 +1,9 @@
 --- 
-name: Principles of collective intelligence- from animal societies to human groups 
+name: Principles of Collective Intelligence- From Animal Societies to Human Groups 
 speakers: 
   - Guy Theraulaz
 categories:
   - Presentation
 ---
 
-Principles of collective intelligence: from animal societies to human groups
+Principles of Collective Intelligence- From Animal Societies to Human Groups

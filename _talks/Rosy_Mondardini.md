@@ -1,9 +1,9 @@
 --- 
-name:  (TBD) 
+name: Citizen Engagement – Stumbling Block or Priceless Opportunity? 
 speakers: 
   - Rosy Mondardini
 categories:
   - Presentation
 ---
 
- (TBD)
+Citizen Engagement – Stumbling Block or Priceless Opportunity?

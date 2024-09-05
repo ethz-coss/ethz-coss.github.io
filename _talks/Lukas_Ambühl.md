@@ -1,9 +1,9 @@
 --- 
-name: Virtual roads, real solutions - From academia to the future of transportation digital twins 
+name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins 
 speakers: 
   - Lukas Ambühl
 categories:
   - Presentation
 ---
 
-Virtual roads, real solutions - From academia to the future of transportation digital twins
+Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins

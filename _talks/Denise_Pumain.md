@@ -1,9 +1,9 @@
 --- 
-name: Can we make the co-evolution of cities smarter? 
+name: Can We Make the Co-Evolution of Cities Smarter? 
 speakers: 
   - Denise Pumain
 categories:
   - Presentation
 ---
 
-Can we make the co-evolution of cities smarter?
+Can We Make the Co-Evolution of Cities Smarter?

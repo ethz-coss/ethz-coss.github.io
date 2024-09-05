@@ -1,9 +1,9 @@
 --- 
-name: The ring of Brownian motion- Its beneficial use for physics and elsewhere 
+name: The Ring of Brownian Motion 
 speakers: 
   - Peter Hänggi
 categories:
   - Presentation
 ---
 
-The ring of Brownian motion: Its beneficial use for physics and elsewhere
+The Ring of Brownian Motion

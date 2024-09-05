@@ -1,9 +1,9 @@
 --- 
-name: The promise and peril of AI 
+name: The Promise and Peril of AI 
 speakers: 
   - Bernardo Huberman
 categories:
   - Presentation
 ---
 
-The promise and peril of AI
+The Promise and Peril of AI

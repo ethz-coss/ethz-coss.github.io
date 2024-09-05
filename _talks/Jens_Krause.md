@@ -1,9 +1,9 @@
 --- 
-name: Collective rule-breaking  
+name: Collective Rule-Breaking 
 speakers: 
   - Jens Krause
 categories:
   - Presentation
 ---
 
-Collective rule-breaking 
+Collective Rule-Breaking
