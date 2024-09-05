@@ -2,36 +2,198 @@ days:
 - name: Monday
   abbr: Mo
   date: 2025-02-10
-#  rooms:
-#  - name: Room A
-#    talks:
-#      - name: Vim Impetus Placerat Cotidieque Ad
-#        time_start: '12:00'
-#        time_end: '12:45'
-#      - name: Condimentum Vitae Sapien Pellentesque
-#        time_start: '12:45'
-#        time_end: '13:30'
-#
-#  - name: Room B
-#    talks:
-#      - name: Arcu Non Odio
-#        time_start: '12:00'
-#        time_end: '13:00'
-#
-#  - name: Room C
-#    talks:
-#      - name: Eu Nisl Nunc Mi Ipsum Faucibus
-#        time_start: '13:30'
-#        time_end: '14:30'
+  rooms:
+  - name: Room A
+    talks:
+      - name: Of Fish and Fascists
+        time_start: '9:00'
+        time_end: '9:30'
+      - name: Collective Rule-Breaking
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: Principles of Collective Intelligence- From Animal Societies to Human Groups
+        time_start: '10:00'
+        time_end: '10:30'
+      - name: Hybrid Intelligence for Digital Democratic Processes
+        time_start: '11:00'
+        time_end: '11:30'
+      - name: When Artificial Stupidity Meets Its Natural Counterpart
+        time_start: '11:30'
+        time_end: '12:00'
+      - name: Decision-Centred AI. On the Human-AI Interaction for Wicked Problems
+        time_start: '12:00'
+        time_end: '12:30'
+      - name: The Promise and Peril of AI
+        time_start: '13:30'
+        time_end: '14:00'
+      - name: Machine Learning and Complexity
+        time_start: '14:00'
+        time_end: '14:30'
+      - name: How Could AI Change Politics?
+        time_start: '14:30'
+        time_end: '15:00'
+      - name: Network Science and Smarter Society
+        time_start: '16:00'
+        time_end: '16:30'
+      - name: Complex Systems Design
+        time_start: '15:30'
+        time_end: '16:00'
+      - name: Social Artificial Intelligence
+        time_start: '16:30'
+        time_end: '17:00'
 - name: Tuesday
-  abbr: Tues
+  abbr: Tue
   date: 2025-02-11
+  rooms:
+  - name: Room A
+    talks:
+      - name: tbd
+        time_start: '9:00'
+        time_end: '9:30'
+      - name: New Tools for Urban Regeneration
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: Digitally Assisted Collective Governance of Smart City Commons
+        time_start: '10:00'
+        time_end: '10:30'
+      - name: tbd
+        time_start: '11:00'
+        time_end: '11:30'
+      - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
+        time_start: '11:30'
+        time_end: '12:00'
+      - name: Future Cities- Governance, Responsiveness, Generativity
+        time_start: '12:00'
+        time_end: '12:30'
+      - name: Modeling and Decision Making in Complex Societies
+        time_start: '13:30'
+        time_end: '14:00'
+      - name: Symmetry Breaking in Optimal Transport Networks
+        time_start: '14:00'
+        time_end: '14:30'
+      - name: The Ring of Brownian Motion
+        time_start: '14:30'
+        time_end: '15:00'
+      - name: tbd
+        time_start: '15:30'
+        time_end: '16:00'
+      - name: Social Resilience
+        time_start: '16:00'
+        time_end: '16:30'
+      - name: Modeling the Global Economy 
+        time_start: '16:30'
+        time_end: '17:00'
 - name: Wednesday
   abbr: Wed
   date: 2025-02-12
+  rooms:
+  - name: Room A
+    talks:
+      - name: The Future of the City- Prediction, Invention and Artificial Intelligence
+        time_start: '9:00'
+        time_end: '9:30'
+      - name: Can We Make the Co-Evolution of Cities Smarter?
+        time_start: '09:30'
+        time_end: '10:00'
+      - name: tbd
+        time_start: '10:00'
+        time_end: '10:30'
+      - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
+        time_start: '11:00'
+        time_end: '11:30'
+      - name: tbd
+        time_start: '11:30'
+        time_end: '12:00'
+      - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
+        time_start: '12:00'
+        time_end: '12:30'
+      - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
+        time_start: '13:30'
+        time_end: '14:00'
+      - name: tbd
+        time_start: '14:00'
+        time_end: '14:30'
+      - name: Rationality in Social Decision Making
+        time_start: '14:30'
+        time_end: '15:00'
+      - name: tbd
+        time_start: '15:30'
+        time_end: '16:00'
+      - name: Patterns of Conflict Escalation
+        time_start: '16:00'
+        time_end: '16:30'
 - name: Thursday
-  abbr: Thur
+  abbr: Thu
   date: 2025-02-13
+  rooms:
+  - name: Room A
+    talks:
+      - name: Traffic of Many Autonomous Drones in 2+ Dimensions
+        time_start: '9:00'
+        time_end: '9:30'
+      - name: On the Limits of Science and Engineering
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: tbd
+        time_start: '10:00'
+        time_end: '10:30'
+      - name: Human-AI Symbiosis in a Smart Society
+        time_start: '11:00'
+        time_end: '11:30'
+      - name: Ontological Foundations of a Digital Society
+        time_start: '11:30'
+        time_end: '12:00'
+      - name: Smart Technology, Trivial Ethics- Proposing De-Trivialization and Academic Rigor for Ethics
+        time_start: '12:00'
+        time_end: '12:30'
+      - name: Economic Crime as a Social Phenomenon
+        time_start: '13:30'
+        time_end: '14:00'
+      - name: tbd
+        time_start: '14:00'
+        time_end: '14:30'
+      - name: tbd
+        time_start: '14:30'
+        time_end: '15:00'
+      - name: Complexity and Networks
+        time_start: '15:30'
+        time_end: '16:00'
+      - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays- Will It Be Safer than Human Driving?
+        time_start: '16:00'
+        time_end: '16:30'
+      - name: What Should Urban Traffic Be Optimized For?
+        time_start: '16:30'
+        time_end: '17:00'
 - name: Friday
   abbr: Fri
   date: 2025-02-14
+  rooms:
+  - name: Room A
+    talks:
+      - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
+        time_start: '9:00'
+        time_end: '9:30'
+      - name: Mechanisms for Cooperation
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: Smarter Societies at the Brink of Climate Emergency?
+        time_start: '10:00'
+        time_end: '10:30'
+      - name: Agent-Based Social Simulation- The Dream and the Reality
+        time_start: '11:00'
+        time_end: '11:30'
+      - name: Established Democracy and (Non-)Participatory Approaches, AI, Complexity
+        time_start: '11:30'
+        time_end: '12:00'
+      - name: Rethinking Urban Governance for People, Places and the Planet
+        time_start: '12:00'
+        time_end: '12:30'
+      - name: Human Values in Complex Systems
+        time_start: '13:30'
+        time_end: '14:00'
+      - name: tbd
+        time_start: '14:00'
+        time_end: '14:30'
+      - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality- A Human-Centric Approach to Urban Innovation
+        time_start: '14:30'
+        time_end: '15:00'
