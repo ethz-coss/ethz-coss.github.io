@@ -185,7 +185,7 @@ conference:
     time_steps: 30 # in minutes
 
     # Show intermediary time steps (next to full hours)
-    show_alltimes: false
+    show_alltimes: true
 
   special-issue:
     # URL of program page
