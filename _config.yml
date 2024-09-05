@@ -77,8 +77,8 @@ conference:
 #      img: 'LOGO_EU_ERC_CoCi_V2.png'
       url: 'https://coss.ethz.ch/'
     links:
-#      - name: Program
-#        relative_url: /program/
+      - name: Program
+        relative_url: /program/
       - name: Talks
         relative_url: /talks/
       - name: Speakers
@@ -109,8 +109,8 @@ conference:
     logo:
 #      img: 'LOGO_EU_ERC_CoCi_V2.png'
     links:
-#      - name: Program
-#        relative_url: /program/
+      - name: Program
+        relative_url: /program/
       - name: Location
         relative_url: /location/
       - name: Speakers  
