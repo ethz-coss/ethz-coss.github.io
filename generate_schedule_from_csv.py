@@ -19,7 +19,7 @@ with open("_data/program.yml", "w") as file:
                  f"  abbr: {abbr[day]}\n" \
                  f"  date: {date[day]}\n" \
                  f"  rooms:\n" \
-                 f"  - name: Room A\n" \
+                 f"  - name: LEE E 101\n" \
                  f"    talks:\n"
             file.write(header)
             previous_day = day

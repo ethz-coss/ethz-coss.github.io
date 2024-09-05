@@ -3,7 +3,7 @@ days:
   abbr: Mo
   date: 2025-02-10
   rooms:
-  - name: Room A
+  - name: LEE E 101
     talks:
       - name: Of Fish and Fascists
         time_start: '9:00'
@@ -45,7 +45,7 @@ days:
   abbr: Tue
   date: 2025-02-11
   rooms:
-  - name: Room A
+  - name: LEE E 101
     talks:
       - name: tbd - Cesar Hidalgo
         time_start: '9:00'
@@ -87,7 +87,7 @@ days:
   abbr: Wed
   date: 2025-02-12
   rooms:
-  - name: Room A
+  - name: LEE E 101
     talks:
       - name: The Future of the City- Prediction, Invention and Artificial Intelligence
         time_start: '9:00'
@@ -126,7 +126,7 @@ days:
   abbr: Thu
   date: 2025-02-13
   rooms:
-  - name: Room A
+  - name: LEE E 101
     talks:
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions
         time_start: '9:00'
@@ -168,7 +168,7 @@ days:
   abbr: Fri
   date: 2025-02-14
   rooms:
-  - name: Room A
+  - name: LEE E 101
     talks:
       - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
         time_start: '9:00'
