@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - All participants (1).csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - AllParticipants_050924.csv")
 confirmed_speakers = df.loc[df["Will attend?"]=="Yes"]
 specified_talks = confirmed_speakers.loc[confirmed_speakers["What is the tentative title of your talk?"] != "tbd"]
 
@@ -11,9 +11,11 @@ import glob
 existing_files = glob.glob("_talks/*.md")
 print(existing_files)
 
-for i, row in specified_talks.iterrows():
+for i, row in confirmed_speakers.iterrows():
 
     talk_title = row['What is the tentative title of your talk?'].replace(":", "-")
+    if talk_title == "tbd":
+        talk_title = f"tbd - {row['Firstname']} {row['Surname']}"
 
     string = f"--- " \
              f"\nname: {talk_title} " \

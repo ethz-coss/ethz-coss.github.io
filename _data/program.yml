@@ -47,7 +47,7 @@ days:
   rooms:
   - name: Room A
     talks:
-      - name: tbd
+      - name: tbd - Cesar Hidalgo
         time_start: '9:00'
         time_end: '9:30'
       - name: New Tools for Urban Regeneration
@@ -56,7 +56,7 @@ days:
       - name: Digitally Assisted Collective Governance of Smart City Commons
         time_start: '10:00'
         time_end: '10:30'
-      - name: tbd
+      - name: tbd - Thomas Maillart
         time_start: '11:00'
         time_end: '11:30'
       - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
@@ -74,7 +74,7 @@ days:
       - name: The Ring of Brownian Motion
         time_start: '14:30'
         time_end: '15:00'
-      - name: tbd
+      - name: tbd - Stefan Thurner
         time_start: '15:30'
         time_end: '16:00'
       - name: Social Resilience
@@ -95,13 +95,13 @@ days:
       - name: Can We Make the Co-Evolution of Cities Smarter?
         time_start: '09:30'
         time_end: '10:00'
-      - name: tbd
+      - name: tbd - Carlo Ratti
         time_start: '10:00'
         time_end: '10:30'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
-      - name: tbd
+      - name: tbd - Serge Hoogendoorn
         time_start: '11:30'
         time_end: '12:00'
       - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
@@ -110,13 +110,13 @@ days:
       - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
         time_start: '13:30'
         time_end: '14:00'
-      - name: tbd
+      - name: tbd - Ulrike Klinger
         time_start: '14:00'
         time_end: '14:30'
       - name: Rationality in Social Decision Making
         time_start: '14:30'
         time_end: '15:00'
-      - name: tbd
+      - name: tbd - Stefano Balietti
         time_start: '15:30'
         time_end: '16:00'
       - name: Patterns of Conflict Escalation
@@ -134,7 +134,7 @@ days:
       - name: On the Limits of Science and Engineering
         time_start: '9:30'
         time_end: '10:00'
-      - name: tbd
+      - name: tbd - Jeroen van den Hoven
         time_start: '10:00'
         time_end: '10:30'
       - name: Human-AI Symbiosis in a Smart Society
@@ -149,10 +149,10 @@ days:
       - name: Economic Crime as a Social Phenomenon
         time_start: '13:30'
         time_end: '14:00'
-      - name: tbd
+      - name: tbd - Anna Carbone
         time_start: '14:00'
         time_end: '14:30'
-      - name: tbd
+      - name: tbd - Lucas Böttcher
         time_start: '14:30'
         time_end: '15:00'
       - name: Complexity and Networks
@@ -191,7 +191,7 @@ days:
       - name: Human Values in Complex Systems
         time_start: '13:30'
         time_end: '14:00'
-      - name: tbd
+      - name: tbd - Christoph Hölscher
         time_start: '14:00'
         time_end: '14:30'
       - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality- A Human-Centric Approach to Urban Innovation
