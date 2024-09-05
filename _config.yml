@@ -124,7 +124,7 @@ conference:
       color: primary
       main_only: true
       text: |
-        We have new confirmed speakers, check them out in the speakers page.
+        We have updated the program with a tentative scheduling of talks.
 #    - text: This is just some random content for demonstration purposes.
 #      color: warning
 #      pages_only: true
