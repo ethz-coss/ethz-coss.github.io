@@ -6,10 +6,10 @@ days:
   - name: LEE E 101
     talks:
       - name: Of Fish and Fascists
-        time_start: '9:00'
-        time_end: '9:30'
+        time_start: '09:00'
+        time_end: '09:30'
       - name: Collective Rule-Breaking
-        time_start: '9:30'
+        time_start: '09:30'
         time_end: '10:00'
       - name: Principles of Collective Intelligence- From Animal Societies to Human Groups
         time_start: '10:00'
@@ -48,10 +48,10 @@ days:
   - name: LEE E 101
     talks:
       - name: tbd - Cesar Hidalgo
-        time_start: '9:00'
-        time_end: '9:30'
+        time_start: '09:00'
+        time_end: '09:30'
       - name: New Tools for Urban Regeneration
-        time_start: '9:30'
+        time_start: '09:30'
         time_end: '10:00'
       - name: Digitally Assisted Collective Governance of Smart City Commons
         time_start: '10:00'
@@ -90,8 +90,8 @@ days:
   - name: LEE E 101
     talks:
       - name: The Future of the City- Prediction, Invention and Artificial Intelligence
-        time_start: '9:00'
-        time_end: '9:30'
+        time_start: '09:00'
+        time_end: '09:30'
       - name: Can We Make the Co-Evolution of Cities Smarter?
         time_start: '09:30'
         time_end: '10:00'
@@ -129,10 +129,10 @@ days:
   - name: LEE E 101
     talks:
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions
-        time_start: '9:00'
-        time_end: '9:30'
+        time_start: '09:00'
+        time_end: '09:30'
       - name: On the Limits of Science and Engineering
-        time_start: '9:30'
+        time_start: '09:30'
         time_end: '10:00'
       - name: tbd - Jeroen van den Hoven
         time_start: '10:00'
@@ -171,10 +171,10 @@ days:
   - name: LEE E 101
     talks:
       - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
-        time_start: '9:00'
-        time_end: '9:30'
+        time_start: '09:00'
+        time_end: '09:30'
       - name: Mechanisms for Cooperation
-        time_start: '9:30'
+        time_start: '09:30'
         time_end: '10:00'
       - name: Smarter Societies at the Brink of Climate Emergency?
         time_start: '10:00'

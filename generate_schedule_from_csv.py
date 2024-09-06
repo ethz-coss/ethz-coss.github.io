@@ -28,6 +28,10 @@ with open("_data/program.yml", "w") as file:
         if talk_title != "nan":  # check if not NaN
             start_time = row["Time"].split("-")[0]
             end_time = row["Time"].split("-")[-1]
+            if len(start_time.split(":")[0]) == 1:
+                start_time = f"0{start_time}"
+            if len(end_time.split(":")[0]) == 1:
+                end_time = f"0{end_time}"
             print(end_time)
 
             talk_title = talk_title.replace(":", "-")
