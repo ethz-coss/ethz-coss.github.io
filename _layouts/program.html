@@ -34,66 +34,98 @@
       </thead>
 
       <tbody>
-        <!-- Iterate through time slots and render talks -->
         {%- assign all_time_slots = "" -%}
+
+        <!-- Step 1: Collect all time slots across days and rooms -->
         {%- for d in site.data.program.days -%}
           {%- for r in d.rooms -%}
             {%- for t in r.talks -%}
               {%- assign talk = site.talks | where: 'name', t.name | first %}
               {%- include partials/get_talk_time.html -%}
-              {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min %}
+
+              <!-- Convert hours and minutes to "HH:MM" padded format -->
+              {%- assign padded_hour = talk_start_hour | prepend: "0" | slice: -2 -%}
+              {%- assign padded_minute = talk_start_min | prepend: "0" | slice: -2 -%}
+              {%- assign talk_time = padded_hour | append: ":" | append: padded_minute %}
+
+              <!-- Append to all_time_slots -->
               {%- assign all_time_slots = all_time_slots | append: talk_time | append: "," -%}
             {%- endfor %}
           {%- endfor %}
         {%- endfor %}
 
-        <!-- Get unique time slots -->
-        {%- assign time_slots = all_time_slots | split: "," | uniq | sort %}
+        <!-- Step 2: Convert times to total minutes and store them -->
+        {%- assign time_slots = all_time_slots | split: "," | uniq -%}
 
-        <!-- Create rows for each time slot -->
+        <!-- Step 3: Create an array of time slots sorted by total minutes since midnight -->
+        {%- assign time_slots_sorted = "" -%}
         {%- for time in time_slots %}
           {%- if time != "" %}
-            <tr>
-              <td class="text-center">{{ time }}</td>
+            {%- assign time_parts = time | split: ":" -%}
+            {%- assign hour = time_parts[0] | plus: 0 -%}  <!-- Convert to number -->
+            {%- assign minute = time_parts[1] | plus: 0 -%}  <!-- Convert to number -->
 
-              {%- for d in site.data.program.days -%}
-                {%- for r in d.rooms -%}
-                  {%- assign room = site.rooms | where: 'name', r.name | first %}
+            <!-- Calculate total minutes since midnight -->
+            {%- assign total_minutes = hour | times: 60 | plus: minute -%}
 
-                  <!-- Check if there is a talk at this time in this room -->
-                  {%- assign talk_found = false -%}
-                  {%- for t in r.talks -%}
-                    {%- assign talk = site.talks | where: 'name', t.name | first %}
-                    {%- include partials/get_talk_time.html -%}
+            <!-- Store the original time and its total minutes representation -->
+            {%- assign time_slots_sorted = time_slots_sorted | append: total_minutes | append: ":" | append: time | append: "," -%}
+          {%- endif %}
+        {%- endfor %}
 
-                    {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min -%}
+        <!-- Step 4: Sort the times based on total minutes -->
+        {%- assign sorted_time_slots = time_slots_sorted | split: "," | sort %}
 
-                    {%- if talk_time == time %}
-                      <!-- Render talk in the corresponding cell -->
-                      <td class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden">
-                        <p class="mb-2">
-                          {%- include partials/show_talk.html %}
-                        </p>
-                        <p class="font-weight-light mb-2">
-                          {%- include partials/list_speakers.html %}
-                        </p>
-                        <p class="mb-1">
-                          {%- include partials/list_sub_categories.html %}
-                        </p>
-                      </td>
-                      {%- assign talk_found = true -%}
-                      {%- break -%}
-                    {%- endif -%}
-                  {%- endfor %}
+        <!-- Step 5: Render the sorted times -->
+        <!-- Loop through sorted times and render rows -->
+        {%- for item in sorted_time_slots %}
+          {%- assign item_parts = item | split: ":" -%}
+          {%- assign total_minutes = item_parts[0] -%}
+          {%- assign time = item_parts[1] -%}
 
-                  <!-- If no talk is found, render an empty cell -->
-                  {%- if talk_found == false %}
-                    <td></td>
+          <tr>
+            <td class="text-center">{{ time }}</td>
+
+            {%- for d in site.data.program.days -%}
+              {%- for r in d.rooms -%}
+                {%- assign room = site.rooms | where: 'name', r.name | first %}
+
+                <!-- Check if there is a talk at this time in this room -->
+                {%- assign talk_found = false -%}
+                {%- for t in r.talks -%}
+                  {%- assign talk = site.talks | where: 'name', t.name | first %}
+                  {%- include partials/get_talk_time.html -%}
+
+                  <!-- Pad hours and minutes for comparison -->
+                  {%- assign padded_hour = talk_start_hour | prepend: "0" | slice: -2 -%}
+                  {%- assign padded_minute = talk_start_min | prepend: "0" | slice: -2 -%}
+                  {%- assign talk_time = padded_hour | append: ":" | append: padded_minute -%}
+
+                  {%- if talk_time == time %}
+                    <!-- Render the talk in the corresponding cell -->
+                    <td class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden">
+                      <p class="mb-2">
+                        {%- include partials/show_talk.html %}
+                      </p>
+                      <p class="font-weight-light mb-2">
+                        {%- include partials/list_speakers.html %}
+                      </p>
+                      <p class="mb-1">
+                        {%- include partials/list_sub_categories.html %}
+                      </p>
+                    </td>
+                    {%- assign talk_found = true -%}
+                    {%- break -%}
                   {%- endif %}
                 {%- endfor %}
+
+                <!-- If no talk is found, render an empty cell -->
+                {%- if talk_found == false %}
+                  <td></td>
+                {%- endif %}
               {%- endfor %}
-            </tr>
-          {%- endif %}
+            {%- endfor %}
+          </tr>
         {%- endfor %}
       </tbody>
     </table>
