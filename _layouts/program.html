@@ -34,23 +34,20 @@
       </thead>
 
       <tbody>
-        <!-- Gather all time slots from all days and rooms -->
+        <!-- Iterate through time slots and render talks -->
         {%- assign all_time_slots = "" -%}
         {%- for d in site.data.program.days -%}
           {%- for r in d.rooms -%}
             {%- for t in r.talks -%}
               {%- assign talk = site.talks | where: 'name', t.name | first %}
               {%- include partials/get_talk_time.html -%}
-              <!-- Pad hours and minutes to ensure proper sorting -->
-              {%- assign padded_hour = talk_start_hour | prepend: "0" | slice: -2 -%}
-              {%- assign padded_minute = talk_start_min | prepend: "0" | slice: -2 -%}
-              {%- assign talk_time = padded_hour | append: ":" | append: padded_minute %}
+              {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min %}
               {%- assign all_time_slots = all_time_slots | append: talk_time | append: "," -%}
             {%- endfor %}
           {%- endfor %}
         {%- endfor %}
 
-        <!-- Get unique and sorted time slots -->
+        <!-- Get unique time slots -->
         {%- assign time_slots = all_time_slots | split: "," | uniq | sort %}
 
         <!-- Create rows for each time slot -->
@@ -69,10 +66,7 @@
                     {%- assign talk = site.talks | where: 'name', t.name | first %}
                     {%- include partials/get_talk_time.html -%}
 
-                    <!-- Pad hours and minutes to ensure proper sorting -->
-                    {%- assign padded_hour = talk_start_hour | prepend: "0" | slice: -2 -%}
-                    {%- assign padded_minute = talk_start_min | prepend: "0" | slice: -2 -%}
-                    {%- assign talk_time = padded_hour | append: ":" | append: padded_minute -%}
+                    {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min -%}
 
                     {%- if talk_time == time %}
                       <!-- Render talk in the corresponding cell -->
