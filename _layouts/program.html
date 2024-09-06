@@ -11,17 +11,17 @@
 
   {{ content }}
 
-<!--  {%- if nbr_days > 1 %}-->
-<!--    <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">-->
-<!--      {%- for d in site.data.program.days -%}-->
-<!--        {%- include partials/get_day_hash.html %}-->
-<!--        <li class="nav-item" role="presentation">-->
-<!--          <a class="nav-link btn btn-outline-secondary {%- if forloop.index == 1 %} active{% endif %}" id="tab-{{ day_hash }}" data-toggle="tab" {%- if d.date %} data-date="{{ d.date }}" {%- endif %} href="#{{ day_hash }}" role="tab" aria-controls="{{ day_hash }}" aria-selected="{% if forloop.index == 1 %}true{% else %}false{% endif %}">{{ day_name }}</a>-->
-<!--        </li>-->
-<!--      {%- endfor %}-->
-<!--    </ul>-->
-<!--    <div class="tab-content" id="day-content">-->
-<!--  {%- endif %}-->
+  {%- if nbr_days > 1 %}
+    <ul class="nav justify-content-center mb-3 btn-group" id="day-list" role="tablist">
+      {%- for d in site.data.program.days -%}
+        {%- include partials/get_day_hash.html %}
+        <li class="nav-item" role="presentation">
+          <a class="nav-link btn btn-outline-secondary {%- if forloop.index == 1 %} active{% endif %}" id="tab-{{ day_hash }}" data-toggle="tab" {%- if d.date %} data-date="{{ d.date }}" {%- endif %} href="#{{ day_hash }}" role="tab" aria-controls="{{ day_hash }}" aria-selected="{% if forloop.index == 1 %}true{% else %}false{% endif %}">{{ day_name }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+    <div class="tab-content" id="day-content">
+  {%- endif %}
 
   {%- for d in site.data.program.days -%}
     {%- if nbr_days > 1 -%}
