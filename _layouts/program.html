@@ -1,104 +1,121 @@
-<div class="table-responsive">
-  <table class="table table-bordered mx-auto">
-    <thead>
-      <tr>
-        <th scope="col" class="text-center">Time</th>
+{% include partials/header.html %}
+  <h1 class="display-5 mb-4">
+    {%- if page.title -%}
+      {{- page.title -}}
+    {%- else -%}
+      {{- site.data.lang[site.conference.lang].program.title | default: "Program" -}}
+    {%- endif -%}
+  </h1>
 
-        <!-- Display Day Names with their Dates as the top header -->
-        {%- for d in site.data.program.days -%}
-          {%- assign day_name = d.date | date: "%A" %}
-          {%- assign day_of_month = d.date | date: "%d %B" %}
-          {%- assign day_rooms_count = d.rooms | size -%}
+  {{ content }}
 
-          <th class="text-center" colspan="{{ day_rooms_count }}">
-            {{ day_name }} <br> ({{ day_of_month }})
-          </th>
-        {%- endfor %}
-      </tr>
-
-      <!-- Create the second row with Room Names -->
-      <tr>
-        <th scope="col" class="text-center">Time</th>
-
-        {%- for d in site.data.program.days -%}
-          {%- for r in d.rooms -%}
-            {%- assign room = site.rooms | where: 'name', r.name | first %}
-            <th scope="col" class="text-center">
-              {%- if room.hide or site.conference.location.hide -%}
-                {{- room.name -}}
-              {%- else -%}
-                <a class="text-reset" href="{{ room.url | prepend: site.baseurl }}">
-                  {{- room.name -}}
-                </a>
-              {%- endif %}
+  <!-- Create a unified table for the talks -->
+  <div class="table-responsive">
+    <table class="table table-bordered mx-auto">
+      <thead>
+        <tr>
+          <th scope="col" class="text-center">Time</th>
+          <!-- Add day labels at the top of each group of rooms -->
+          {%- for d in site.data.program.days -%}
+            {%- assign day_room_count = d.rooms | size -%}
+            <th class="text-center" colspan="{{ day_room_count }}">
+              {{ d.date | date: "%A, %d %B %Y" }} <!-- Displays the day and date -->
             </th>
           {%- endfor %}
-        {%- endfor %}
-      </tr>
-    </thead>
+        </tr>
+        <tr>
+          <th scope="col" class="text-center">Time</th>
+          <!-- Create table headers for rooms, under the corresponding day -->
+          {%- for d in site.data.program.days -%}
+            {%- for r in d.rooms -%}
+              {%- assign room = site.rooms | where: 'name', r.name | first %}
+              <th scope="col" class="text-center">
+                {%- if room.hide or site.conference.location.hide -%}
+                  {{- room.name -}}
+                {%- else -%}
+                  <a class="text-reset" href="{{ room.url | prepend: site.baseurl }}">
+                    {{- room.name -}}
+                  </a>
+                {%- endif -%}
+              </th>
+            {%- endfor %}
+          {%- endfor %}
+        </tr>
+      </thead>
 
-    <tbody>
-      <!-- The rest of the table (time slots and talks) remains the same -->
-      {%- assign all_time_slots = "" -%}
-      {%- for d in site.data.program.days -%}
-        {%- for r in d.rooms -%}
-          {%- for t in r.talks -%}
-            {%- assign talk = site.talks | where: 'name', t.name | first %}
-            {%- include partials/get_talk_time.html -%}
-            {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min %}
-            {%- assign all_time_slots = all_time_slots | append: talk_time | append: "," -%}
+      <tbody>
+        <!-- Iterate through time slots and render talks -->
+        {%- assign all_time_slots = "" -%}
+        {%- for d in site.data.program.days -%}
+          {%- for r in d.rooms -%}
+            {%- for t in r.talks -%}
+              {%- assign talk = site.talks | where: 'name', t.name | first %}
+              {%- include partials/get_talk_time.html -%}
+              {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min %}
+              {%- assign all_time_slots = all_time_slots | append: talk_time | append: "," -%}
+            {%- endfor %}
           {%- endfor %}
         {%- endfor %}
-      {%- endfor %}
 
-      <!-- Get unique time slots -->
-      {%- assign time_slots = all_time_slots | split: "," | uniq | sort %}
+        <!-- Get unique time slots -->
+        {%- assign time_slots = all_time_slots | split: "," | uniq | sort %}
 
-      <!-- Create rows for each time slot -->
-      {%- for time in time_slots %}
-        {%- if time != "" %}
-          <tr>
-            <td class="text-center">{{ time }}</td>
+        <!-- Create rows for each time slot -->
+        {%- for time in time_slots %}
+          {%- if time != "" %}
+            <tr>
+              <td class="text-center">{{ time }}</td>
 
-            {%- for d in site.data.program.days -%}
-              {%- for r in d.rooms -%}
-                {%- assign room = site.rooms | where: 'name', r.name | first %}
+              {%- for d in site.data.program.days -%}
+                {%- for r in d.rooms -%}
+                  {%- assign room = site.rooms | where: 'name', r.name | first %}
 
-                <!-- Check if there is a talk at this time in this room -->
-                {%- assign talk_found = false -%}
-                {%- for t in r.talks -%}
-                  {%- assign talk = site.talks | where: 'name', t.name | first %}
-                  {%- include partials/get_talk_time.html -%}
+                  <!-- Check if there is a talk at this time in this room -->
+                  {%- assign talk_found = false -%}
+                  {%- for t in r.talks -%}
+                    {%- assign talk = site.talks | where: 'name', t.name | first %}
+                    {%- include partials/get_talk_time.html -%}
 
-                  {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min -%}
+                    {%- assign talk_time = talk_start_hour | append: ":" | append: talk_start_min -%}
 
-                  {%- if talk_time == time %}
-                    <!-- Render talk in the corresponding cell -->
-                    <td class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden">
-                      <p class="mb-2">
-                        {%- include partials/show_talk.html %}
-                      </p>
-                      <p class="font-weight-light mb-2">
-                        {%- include partials/list_speakers.html %}
-                      </p>
-                      <p class="mb-1">
-                        {%- include partials/list_sub_categories.html %}
-                      </p>
-                    </td>
-                    {%- assign talk_found = true -%}
-                    {%- break -%}
+                    {%- if talk_time == time %}
+                      <!-- Render talk in the corresponding cell -->
+                      <td class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden">
+                        <p class="mb-2">
+                          {%- include partials/show_talk.html %}
+                        </p>
+                        <p class="font-weight-light mb-2">
+                          {%- include partials/list_speakers.html %}
+                        </p>
+                        <p class="mb-1">
+                          {%- include partials/list_sub_categories.html %}
+                        </p>
+                      </td>
+                      {%- assign talk_found = true -%}
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endfor %}
+
+                  <!-- If no talk is found, render an empty cell -->
+                  {%- if talk_found == false %}
+                    <td></td>
                   {%- endif %}
                 {%- endfor %}
-
-                <!-- If no talk is found, render an empty cell -->
-                {%- if talk_found == false %}
-                  <td></td>
-                {%- endif %}
               {%- endfor %}
-            {%- endfor %}
-          </tr>
-        {%- endif %}
+            </tr>
+          {%- endif %}
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  {%- if site.conference.talks.main_categories %}
+    <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "BackToTheFuture" }}</h5>
+      {%- for main_cat in site.conference.talks.main_categories %}
+        <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">
+          {{- main_cat.name -}}
+        </div>
       {%- endfor %}
-    </tbody>
-  </table>
-</div>
+  {%- endif %}
+
+{% include partials/footer.html %}
