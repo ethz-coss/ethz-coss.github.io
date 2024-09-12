@@ -20,11 +20,11 @@
     <thead>
       <tr>
         <!-- First column for the time slots -->
-        <th scope="col" class="text-center">Time</th>
+        <th scope="col" class="text-center" style="width: 60px;">Time</th>
 
         <!-- Generate a column for each day -->
         {%- for d in site.data.program.days -%}
-          <th scope="col" class="text-center">{{ d.name }} ({{ d.date }})</th>
+          <th scope="col" class="text-center" style="width: {{ 100 | divided_by: nbr_days }}%;">{{ d.name }} ({{ d.date }})</th>
         {%- endfor -%}
       </tr>
     </thead>
