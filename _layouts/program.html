@@ -11,38 +11,30 @@
 
   {{ content }}
 
-  <div class="table-responsive">
+  {% assign time_slots = "09:00,09:30,10:00,10:30,11:00,11:30,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00" | split: "," %}
+
+<div class="table-responsive">
   <table class="table table-bordered">
     <thead>
       <tr>
-        <!-- The first column for the time slots -->
+        <!-- First column for the time slots -->
         <th scope="col" class="text-center">Time</th>
 
         <!-- Generate a column for each day -->
         {%- for d in site.data.program.days -%}
-          <th scope="col" class="text-center">
-            {{ d.name }} ({{ d.date }})
-          </th>
+          <th scope="col" class="text-center">{{ d.name }} ({{ d.date }})</th>
         {%- endfor -%}
       </tr>
     </thead>
 
     <tbody>
-      <!-- Time Slots (assuming the time slots are in 30-minute increments) -->
-      {% assign start_time = '09:00' %}
-      {% assign end_time = '17:00' %}
-      {% assign time_steps = 30 %} <!-- 30 minutes per step -->
-
-      {% assign current_time = start_time %}
-      {% assign time_step_in_minutes = time_steps %}
-
-      <!-- Generate time rows -->
-      {% while current_time < end_time %}
+      <!-- Loop over the pre-defined time slots -->
+      {% for current_time in time_slots %}
         <tr>
           <!-- Display the current time on the left-most column -->
           <th scope="row" class="text-center">{{ current_time }}</th>
 
-          <!-- Loop over each day and display the talks in the correct time slot -->
+          <!-- Loop over each day -->
           {%- for d in site.data.program.days -%}
             <td class="text-center">
               <!-- Loop over the rooms of the current day -->
@@ -61,14 +53,11 @@
             </td>
           {%- endfor -%}
         </tr>
-
-        <!-- Increment the current time by the time step -->
-        {% assign current_time = (current_time | date: "%H:%M") | plus: time_step_in_minutes %}
-        {% assign current_time = current_time | date: "%H:%M" %}
-      {% endwhile %}
+      {% endfor %}
     </tbody>
   </table>
 </div>
+
 
 
   {%- if site.conference.talks.main_categories %}
