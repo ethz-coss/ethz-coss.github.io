@@ -13,6 +13,8 @@
 
   {% assign time_slots = "09:00,09:30,10:00,10:30,11:00,11:30,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00" | split: "," %}
 
+{% assign time_slots = "09:00,09:30,10:00,10:30,11:00,11:30,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00" | split: "," %}
+
 <div class="table-responsive">
   <table class="table table-bordered">
     <thead>
@@ -40,12 +42,18 @@
               <!-- Loop over the rooms of the current day -->
               {% for room in d.rooms %}
                 <!-- Loop over the talks in the current room -->
-                {% for talk in room.talks %}
-                  {% if current_time == talk.time_start %}
+                {% for t in room.talks %}
+                  {%- assign talk = site.talks | where: 'name', t.name | first -%}
+                  {% if current_time == t.time_start %}
                     <div class="alert alert-info">
-                      <strong>{{ talk.name }}</strong><br>
+                      <!-- Link the talk title to its corresponding talk page -->
+                      <strong>
+                        <a href="{{ talk.url | relative_url }}">
+                          {{ talk.name }}
+                        </a>
+                      </strong><br>
                       <em>{{ room.name }}</em><br>
-                      {{ talk.time_start }} - {{ talk.time_end }}
+                      {{ t.time_start }} - {{ t.time_end }}
                     </div>
                   {% endif %}
                 {% endfor %}
@@ -57,6 +65,7 @@
     </tbody>
   </table>
 </div>
+
 
 
 
