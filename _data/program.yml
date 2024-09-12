@@ -8,39 +8,51 @@ days:
       - name: Of Fish and Fascists
         time_start: '09:00'
         time_end: '09:30'
+        speaker: 'Iain Couzin'
       - name: Collective Rule-Breaking
         time_start: '09:30'
         time_end: '10:00'
+        speaker: 'Jens Krause'
       - name: Principles of Collective Intelligence- From Animal Societies to Human Groups
         time_start: '10:00'
         time_end: '10:30'
+        speaker: 'Guy Theraulaz'
       - name: Hybrid Intelligence for Digital Democratic Processes
         time_start: '11:00'
         time_end: '11:30'
+        speaker: 'Catholijn Jonker'
       - name: When Artificial Stupidity Meets Its Natural Counterpart
         time_start: '11:30'
         time_end: '12:00'
+        speaker: 'Paul Lukowicz'
       - name: Decision-Centred AI. On the Human-AI Interaction for Wicked Problems
         time_start: '12:00'
         time_end: '12:30'
+        speaker: 'Tina Comes'
       - name: The Promise and Peril of AI
         time_start: '13:30'
         time_end: '14:00'
+        speaker: 'Bernardo Huberman'
       - name: Machine Learning and Complexity
         time_start: '14:00'
         time_end: '14:30'
+        speaker: 'Nino Antulov-Fantulin'
       - name: How Could AI Change Politics?
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Karsten Donnay'
       - name: Network Science and Smarter Society
         time_start: '16:00'
         time_end: '16:30'
+        speaker: 'Shlomo Havlin'
       - name: Complex Systems Design
         time_start: '15:30'
         time_end: '16:00'
+        speaker: 'Frances Brazier'
       - name: Social Artificial Intelligence
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Nicholas Christakis'
 - name: Tuesday
   abbr: Tue
   date: 2025-02-11
@@ -50,39 +62,51 @@ days:
       - name: tbd - Cesar Hidalgo
         time_start: '09:00'
         time_end: '09:30'
+        speaker: 'Cesar Hidalgo'
       - name: New Tools for Urban Regeneration
         time_start: '09:30'
         time_end: '10:00'
+        speaker: 'Vittorio Loreto'
       - name: Digitally Assisted Collective Governance of Smart City Commons
         time_start: '10:00'
         time_end: '10:30'
+        speaker: 'Evangelos Pournaras'
       - name: tbd - Thomas Maillart
         time_start: '11:00'
         time_end: '11:30'
+        speaker: 'Thomas Maillart'
       - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
         time_start: '11:30'
         time_end: '12:00'
+        speaker: 'Rosy Mondardini'
       - name: Future Cities- Governance, Responsiveness, Generativity
         time_start: '12:00'
         time_end: '12:30'
+        speaker: 'Gerhard Schmitt'
       - name: Modeling and Decision Making in Complex Societies
         time_start: '13:30'
         time_end: '14:00'
+        speaker: 'Alessandro Vespignani'
       - name: Symmetry Breaking in Optimal Transport Networks
         time_start: '14:00'
         time_end: '14:30'
+        speaker: 'Santo Fortunato'
       - name: The Ring of Brownian Motion
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Peter Hänggi'
       - name: tbd - Stefan Thurner
         time_start: '15:30'
         time_end: '16:00'
+        speaker: 'Stefan Thurner'
       - name: Social Resilience
         time_start: '16:00'
         time_end: '16:30'
+        speaker: 'Hans Herrmann'
       - name: Modeling the Global Economy 
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Doyne Farmer'
 - name: Wednesday
   abbr: Wed
   date: 2025-02-12
@@ -92,36 +116,47 @@ days:
       - name: The Future of the City- Prediction, Invention and Artificial Intelligence
         time_start: '09:00'
         time_end: '09:30'
+        speaker: 'Michael Batty'
       - name: Can We Make the Co-Evolution of Cities Smarter?
         time_start: '09:30'
         time_end: '10:00'
+        speaker: 'Denise Pumain'
       - name: tbd - Carlo Ratti
         time_start: '10:00'
         time_end: '10:30'
+        speaker: 'Carlo Ratti'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
+        speaker: 'Efrat Blumenfeld'
       - name: tbd - Serge Hoogendoorn
         time_start: '11:30'
         time_end: '12:00'
+        speaker: 'Serge Hoogendoorn'
       - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
         time_start: '12:00'
         time_end: '12:30'
+        speaker: 'Nikolas Geroliminis'
       - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
         time_start: '13:30'
         time_end: '14:00'
+        speaker: 'Lukas Ambühl'
       - name: tbd - Ulrike Klinger
         time_start: '14:00'
         time_end: '14:30'
+        speaker: 'Ulrike Klinger'
       - name: Rationality in Social Decision Making
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Richard Mann'
       - name: tbd - Stefano Balietti
         time_start: '15:30'
         time_end: '16:00'
+        speaker: 'Stefano Balietti'
       - name: Patterns of Conflict Escalation
         time_start: '16:00'
         time_end: '16:30'
+        speaker: 'Thomas Chadefaux'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
@@ -131,39 +166,51 @@ days:
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions
         time_start: '09:00'
         time_end: '09:30'
+        speaker: 'Tamas Vicsek'
       - name: On the Limits of Science and Engineering
         time_start: '09:30'
         time_end: '10:00'
+        speaker: 'Carlos Gershenson'
       - name: tbd - Jeroen van den Hoven
         time_start: '10:00'
         time_end: '10:30'
+        speaker: 'Jeroen van den Hoven'
       - name: Human-AI Symbiosis in a Smart Society
         time_start: '11:00'
         time_end: '11:30'
+        speaker: 'Marcello Ienca'
       - name: Ontological Foundations of a Digital Society
         time_start: '11:30'
         time_end: '12:00'
+        speaker: 'Andrej Zwitter'
       - name: Smart Technology, Trivial Ethics- Proposing De-Trivialization and Academic Rigor for Ethics
         time_start: '12:00'
         time_end: '12:30'
+        speaker: 'Peter Seele'
       - name: Economic Crime as a Social Phenomenon
         time_start: '13:30'
         time_end: '14:00'
+        speaker: 'János Kertész'
       - name: tbd - Anna Carbone
         time_start: '14:00'
         time_end: '14:30'
+        speaker: 'Anna Carbone'
       - name: tbd - Lucas Böttcher
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Lucas Böttcher'
       - name: Complexity and Networks
         time_start: '15:30'
         time_end: '16:00'
+        speaker: 'Guido Caldarelli'
       - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays- Will It Be Safer than Human Driving?
         time_start: '16:00'
         time_end: '16:30'
+        speaker: 'Martin Treiber'
       - name: What Should Urban Traffic Be Optimized For?
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Stefan Lämmer'
 - name: Friday
   abbr: Fri
   date: 2025-02-14
@@ -173,27 +220,36 @@ days:
       - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
         time_start: '09:00'
         time_end: '09:30'
+        speaker: 'Andreas Diekmann'
       - name: Mechanisms for Cooperation
         time_start: '09:30'
         time_end: '10:00'
+        speaker: 'Heinrich Nax'
       - name: Smarter Societies at the Brink of Climate Emergency?
         time_start: '10:00'
         time_end: '10:30'
+        speaker: 'Viktoria Spaiser'
       - name: Agent-Based Social Simulation- The Dream and the Reality
         time_start: '11:00'
         time_end: '11:30'
+        speaker: 'Mario Paolucci'
       - name: Established Democracy and (Non-)Participatory Approaches, AI, Complexity
         time_start: '11:30'
         time_end: '12:00'
+        speaker: 'Regula Hänggli'
       - name: Rethinking Urban Governance for People, Places and the Planet
         time_start: '12:00'
         time_end: '12:30'
+        speaker: 'Trivik Verma'
       - name: Human Values in Complex Systems
         time_start: '13:30'
         time_end: '14:00'
+        speaker: 'Indushree Banerjee'
       - name: tbd - Christoph Hölscher
         time_start: '14:00'
         time_end: '14:30'
+        speaker: 'Christoph Hölscher'
       - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality- A Human-Centric Approach to Urban Innovation
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Hantao Zhao'
