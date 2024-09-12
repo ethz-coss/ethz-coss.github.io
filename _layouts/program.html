@@ -11,12 +11,10 @@
 
   {{ content }}
 
-  {% assign time_slots = "09:00,09:30,10:00,10:30,11:00,11:30,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00" | split: "," %}
-
 {% assign time_slots = "09:00,09:30,10:00,10:30,11:00,11:30,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00" | split: "," %}
 
 <div class="table-responsive">
-  <table class="table table-bordered" style="width: 100%; table-layout: auto;">
+  <table class="table table-bordered" style="width: auto; table-layout: auto;">
     <thead>
       <tr>
         <!-- First column for the time slots -->
@@ -36,7 +34,17 @@
       {% for current_time in time_slots %}
         <tr>
           <!-- Display the current time on the left-most column -->
-          <th scope="row" class="text-center" style="white-space: nowrap;">{{ current_time }}</th>
+          <th scope="row" class="text-center" style="width: auto, white-space: nowrap;">
+            {% if current_time == "10:30" %}
+              <strong>Break</strong>
+            {% elsif current_time == "12:30" or current_time == "13:00" %}
+              <strong>Lunch</strong>
+            {% elsif current_time == "15:00" %}
+              <strong>Break</strong>
+            {% else %}
+              {{ current_time }}
+            {% endif %}
+          </th>
 
           <!-- Loop over each day -->
           {%- for d in site.data.program.days -%}
