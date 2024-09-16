@@ -1,11 +1,12 @@
 {% include partials/header.html %}
 
   <h1 class="display-5 mb-4">
-    {% if page.title %}
-      {{ page.title }}
-    {% else %}
-      "Participants"
-    {% endif %}
+<!--    {% if page.title %}-->
+<!--      {{ page.title }}-->
+<!--    {% else %}-->
+<!--      {{ site.data.lang[site.conference.lang].speaker.overview | default: "Participants" }}-->
+<!--    {% endif %}-->
+    Participants
   </h1>
 
   {{ content }}
