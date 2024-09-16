@@ -157,6 +157,10 @@ conference:
     # Show first and last name
     show_firstname: true
 
+  speakers:
+    # Show first and last name
+    show_firstname: true
+
   location:
     # Disable links to locations
     hide: true # NOTE: set to false to show the rooms again
