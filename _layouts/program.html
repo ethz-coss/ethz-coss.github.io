@@ -58,9 +58,10 @@
                     <div class="alert alert-info">
                       <!-- Link the talk title to its corresponding talk page -->
                       <strong>
-                        <a href="{{ talk.url | relative_url }}">
-                          {{ talk.name }}
-                        </a>
+<!--                        <a href="{{ talk.url | relative_url }}">-->
+<!--                          {{ talk.name }}-->
+<!--                        </a>-->
+                        {% include partials/show_talk.html %}
                       </strong><br>
                       <em>{{ t.speaker }}</em><br>
                       {{ t.time_start }} - {{ t.time_end }}
