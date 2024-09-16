@@ -1,5 +1,15 @@
 {%- if talk.hide -%}
-  {{ talk.name }}
+  {%- if talk.name contains "tbd - " -%}
+    tba
+  {%- else -%}
+    {{ talk.name }}
+  {%- endif -%}
 {%- else -%}
-  <a class="text-reset" href="{{ talk.url | prepend: site.baseurl }}">{{ talk.name }}</a>
+  {%- if talk.name contains "tbd - " -%}
+    tba
+  {%- else -%}
+    <a class="text-reset" href="{{ talk.url | prepend: site.baseurl }}">
+      {{ talk.name }}
+    </a>
+  {%- endif -%}
 {%- endif -%}
