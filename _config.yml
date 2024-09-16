@@ -153,7 +153,7 @@ conference:
     # Hide icons on talk overview page
     hide_icons: false
 
-  speakers:
+  participants:
     # Show first and last name
     show_firstname: true
 
