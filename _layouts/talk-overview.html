@@ -22,13 +22,12 @@
           {%- if cat == main_category.name -%}
             {%- assign main_cat = main_category.name -%}
             <li class="pl-2 mb-2 border-soft-{{ main_category.color }}">
-              <p class="mb-0">
-                {% include partials/show_talk.html %}
-              </p>
               <p class="font-weight-light mb-0">
                 {% include partials/list_speakers.html %}
               </p>
-
+              <p class="mb-0">
+                {% include partials/show_talk.html %}
+              </p>
               {% if talk.hide -%}
                 {%- assign talk_scheduled = false -%}
                 {%- for d in site.data.program.days -%}
