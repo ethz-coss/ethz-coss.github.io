@@ -11,11 +11,11 @@
   {{ content }}
 
   {% for main_category in site.conference.talks.main_categories %}
-    <h3 class="mt-4 mb-3">
-      <span class="badge border-soft-{{ main_category.color }} bg-soft-{{ main_category.color }} d-block d-sm-inline text-wrap">
-        {{ main_category.name }}
-      </span>
-    </h3>
+<!--    <h3 class="mt-4 mb-3">-->
+<!--      <span class="badge border-soft-{{ main_category.color }} bg-soft-{{ main_category.color }} d-block d-sm-inline text-wrap">-->
+<!--        {{ main_category.name }}-->
+<!--      </span>-->
+<!--    </h3>-->
     <ul class="list-unstyled">
       {% for talk in site.talks -%}
         {%- for cat in talk.categories -%}
