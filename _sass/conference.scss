@@ -37,8 +37,10 @@ $fa-font-path: '/assets/webfonts' !default;
   border-left-width: $alert-border-width;
 }
 
-.container-xl {
-    max-width: 1920px;
+@media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1920px;
+    }
 }
 
 @each $color, $value in $theme-colors {
