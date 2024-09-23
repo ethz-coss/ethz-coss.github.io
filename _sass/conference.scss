@@ -37,6 +37,10 @@ $fa-font-path: '/assets/webfonts' !default;
   border-left-width: $alert-border-width;
 }
 
+.container-xl {
+    max-width: 1920px;
+}
+
 @each $color, $value in $theme-colors {
   .border-soft-#{$color} {
     border-color: theme-color-level($color, $alert-border-level);
