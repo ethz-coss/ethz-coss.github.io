@@ -9,7 +9,7 @@ print(existing_files)
 
 for i, row in df.iterrows():
 
-    talk_title = str(row['Tentative Title']).replace(":", "-")
+    talk_title = str(row['Tentative Title']).replace(":", "\:")
     if talk_title == "tbd":
         talk_title = f"tbd - {row['First Name']} {row['Last Name']}"
 
