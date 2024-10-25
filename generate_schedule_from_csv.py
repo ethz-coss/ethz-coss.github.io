@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_050924_v2.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_251024_v2.csv")
 
 days = {1: "Monday", 2: "Tuesday", 3: "Wednesday", 4: "Thursday", 5: "Friday"}
 abbr = {1: "Mo", 2: "Tue", 3: "Wed", 4: "Thu", 5: "Fri"}
@@ -28,6 +28,7 @@ with open("_data/program.yml", "w") as file:
         if talk_title != "nan":  # check if not NaN
             start_time = row["Time"].split("-")[0]
             end_time = row["Time"].split("-")[-1]
+            speaker = f"{row['First Name']} {row['Last Name']}"
             if len(start_time.split(":")[0]) == 1:
                 start_time = f"0{start_time}"
             if len(end_time.split(":")[0]) == 1:
@@ -42,6 +43,7 @@ with open("_data/program.yml", "w") as file:
 
             talk_body = f"      - name: {talk_title}\n" \
                         f"        time_start: '{start_time}'\n" \
-                        f"        time_end: '{end_time}'\n"
+                        f"        time_end: '{end_time}'\n" \
+                        f"        speaker: '{speaker}'\n"
 
             file.write(talk_body)

@@ -1,9 +1,9 @@
 --- 
-name: tbd - Lucas Böttcher 
+name: Decision Making Under Uncertainty 
 speakers: 
   - Lucas Böttcher
 categories:
   - Presentation
 ---
 
-tbd - Lucas Böttcher
+Decision Making Under Uncertainty

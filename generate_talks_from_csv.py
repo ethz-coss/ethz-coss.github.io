@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_050924_v2.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_251024_v2.csv")
 
 import glob
 

@@ -1,9 +1,9 @@
 --- 
-name: Symmetry Breaking in Optimal Transport Networks 
+name: Better Science for a Better World 
 speakers: 
   - Santo Fortunato
 categories:
   - Presentation
 ---
 
-Symmetry Breaking in Optimal Transport Networks
+Better Science for a Better World

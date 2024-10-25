@@ -25,7 +25,7 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Paul Lukowicz'
-      - name: Decision-Centred AI. On the Human-AI Interaction for Wicked Problems
+      - name: Decision-Centred AI- On the Human-AI Interaction for Wicked Problems
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
@@ -49,10 +49,10 @@ days:
         time_start: '15:30'
         time_end: '16:00'
         speaker: 'Frances Brazier'
-      - name: Social Artificial Intelligence
+      - name: On the Limits of Science and Engineering
         time_start: '16:30'
         time_end: '17:00'
-        speaker: 'Nicholas Christakis'
+        speaker: 'Carlos Gershenson'
 - name: Tuesday
   abbr: Tue
   date: 2025-02-11
@@ -75,7 +75,7 @@ days:
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Thomas Maillart'
-      - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
+      - name: Citizen Engagement- Stumbling Block or Priceless Opportunity?
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Rosy Mondardini'
@@ -87,7 +87,7 @@ days:
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Alessandro Vespignani'
-      - name: Symmetry Breaking in Optimal Transport Networks
+      - name: Better Science for a Better World
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Santo Fortunato'
@@ -103,10 +103,10 @@ days:
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Hans Herrmann'
-      - name: Modeling the Global Economy 
+      - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
         time_start: '16:30'
         time_end: '17:00'
-        speaker: 'Doyne Farmer'
+        speaker: 'Nikolas Geroliminis'
 - name: Wednesday
   abbr: Wed
   date: 2025-02-12
@@ -133,22 +133,18 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Serge Hoogendoorn'
-      - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
+      - name: tbd - Christoph Hölscher
         time_start: '12:00'
         time_end: '12:30'
-        speaker: 'Nikolas Geroliminis'
-      - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
+        speaker: 'Christoph Hölscher'
+      - name: Virtual Roads, Real Solutions- From Academia to the Future of Transportation Digital Twins
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Lukas Ambühl'
-      - name: tbd - Ulrike Klinger
-        time_start: '14:00'
-        time_end: '14:30'
-        speaker: 'Ulrike Klinger'
-      - name: Rationality in Social Decision Making
+      - name: Rethinking Urban Governance for People, Places and the Planet
         time_start: '14:30'
         time_end: '15:00'
-        speaker: 'Richard Mann'
+        speaker: 'Trivik Verma'
       - name: tbd - Stefano Balietti
         time_start: '15:30'
         time_end: '16:00'
@@ -163,14 +159,14 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: Traffic of Many Autonomous Drones in 2+ Dimensions
+      - name: Economic Crime as a Social Phenomenon
         time_start: '09:00'
         time_end: '09:30'
-        speaker: 'Tamas Vicsek'
-      - name: On the Limits of Science and Engineering
+        speaker: 'János Kertész'
+      - name: Complexity and Networks
         time_start: '09:30'
         time_end: '10:00'
-        speaker: 'Carlos Gershenson'
+        speaker: 'Guido Caldarelli'
       - name: tbd - Jeroen van den Hoven
         time_start: '10:00'
         time_end: '10:30'
@@ -187,37 +183,37 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Peter Seele'
-      - name: Economic Crime as a Social Phenomenon
+      - name: Traffic of Many Autonomous Drones in 2+ Dimensions
         time_start: '13:30'
         time_end: '14:00'
-        speaker: 'János Kertész'
+        speaker: 'Tamas Vicsek'
       - name: tbd - Anna Carbone
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Anna Carbone'
-      - name: tbd - Lucas Böttcher
+      - name: Decision Making Under Uncertainty
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Lucas Böttcher'
-      - name: Complexity and Networks
+      - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays- Will It Be Safer than Human Driving?
         time_start: '15:30'
         time_end: '16:00'
-        speaker: 'Guido Caldarelli'
-      - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays- Will It Be Safer than Human Driving?
-        time_start: '16:00'
-        time_end: '16:30'
         speaker: 'Martin Treiber'
       - name: What Should Urban Traffic Be Optimized For?
+        time_start: '16:00'
+        time_end: '16:30'
+        speaker: 'Stefan Lämmer'
+      - name: Social Artificial Intelligence
         time_start: '16:30'
         time_end: '17:00'
-        speaker: 'Stefan Lämmer'
+        speaker: 'Nicholas Christakis'
 - name: Friday
   abbr: Fri
   date: 2025-02-14
   rooms:
   - name: LEE E 101
     talks:
-      - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
+      - name: Environmental Inequality in European Cities- Empirical Analysis with Geo-Referenced Data
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'Andreas Diekmann'
@@ -237,19 +233,31 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Regula Hänggli'
-      - name: Rethinking Urban Governance for People, Places and the Planet
+      - name: Rationality in Social Decision Making
         time_start: '12:00'
         time_end: '12:30'
-        speaker: 'Trivik Verma'
+        speaker: 'Richard Mann'
       - name: Human Values in Complex Systems
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Indushree Banerjee'
-      - name: tbd - Christoph Hölscher
+      - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality- A Human-Centric Approach to Urban Innovation
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Christoph Hölscher'
-      - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality- A Human-Centric Approach to Urban Innovation
+        speaker: 'Hantao Zhao'
+      - name: Modeling the Global Economy 
         time_start: '14:30'
         time_end: '15:00'
-        speaker: 'Hantao Zhao'
+        speaker: 'Doyne Farmer'
+      - name: Surprise Talk
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'Surprise Speaker'
+      - name: Surprise Talk
+        time_start: '16:00'
+        time_end: '16:30'
+        speaker: 'Surprise Speaker'
+      - name: Surprise Talk
+        time_start: '16:30'
+        time_end: '17:00'
+        speaker: 'Surprise Speaker'

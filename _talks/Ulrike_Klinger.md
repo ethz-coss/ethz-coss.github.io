@@ -1,9 +1,9 @@
 --- 
-name: tbd - Ulrike Klinger 
+name: nan 
 speakers: 
   - Ulrike Klinger
 categories:
   - Presentation
 ---
 
-tbd - Ulrike Klinger
+nan
