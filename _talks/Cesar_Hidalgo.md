@@ -1,5 +1,5 @@
 --- 
-name: tbd - Cesar Hidalgo 
+name: tbd - Cesar Hidalgo
 speakers: 
   - Cesar Hidalgo
 categories:

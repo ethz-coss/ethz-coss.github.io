@@ -1,5 +1,5 @@
 --- 
-name: What Should Urban Traffic Be Optimized For? 
+name: What Should Urban Traffic Be Optimized For?
 speakers: 
   - Stefan Lämmer
 categories:

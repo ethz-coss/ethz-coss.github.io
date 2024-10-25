@@ -1,5 +1,5 @@
 --- 
-name: Complexity and Networks 
+name: Complexity and Networks
 speakers: 
   - Guido Caldarelli
 categories:

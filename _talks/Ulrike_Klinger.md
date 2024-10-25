@@ -1,5 +1,5 @@
 --- 
-name: tbd - Ulrike Klinger 
+name: tbd - Ulrike Klinger
 speakers: 
   - Ulrike Klinger
 categories:

@@ -39,7 +39,7 @@ with open("_data/program.yml", "w") as file:
             if str(row['virtual']) == "True":
                 virtual_tag = " (v)"
 
-            talk_title = talk_title.replace(":", "-")
+            talk_title = talk_title.replace(":", " -")
 
             if talk_title == "tbd":
                 talk_title = f"tbd - {row['First Name']} {row['Last Name']}"

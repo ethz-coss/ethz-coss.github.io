@@ -1,5 +1,5 @@
 --- 
-name: Decision Making Under Uncertainty 
+name: Decision Making Under Uncertainty
 speakers: 
   - Lucas Böttcher
 categories:

@@ -1,5 +1,5 @@
 --- 
-name: Of Fish and Fascists 
+name: Of Fish and Fascists
 speakers: 
   - Iain Couzin
 categories:

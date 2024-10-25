@@ -1,5 +1,5 @@
 --- 
-name: Social Artificial Intelligence (v) 
+name: Social Artificial Intelligence (v)
 speakers: 
   - Nicholas Christakis
 categories:

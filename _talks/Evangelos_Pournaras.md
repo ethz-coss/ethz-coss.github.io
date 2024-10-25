@@ -1,5 +1,5 @@
 --- 
-name: Digitally Assisted Collective Governance of Smart City Commons 
+name: Digitally Assisted Collective Governance of Smart City Commons
 speakers: 
   - Evangelos Pournaras
 categories:

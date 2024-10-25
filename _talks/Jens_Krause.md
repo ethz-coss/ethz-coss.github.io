@@ -1,5 +1,5 @@
 --- 
-name: Collective Rule-Breaking 
+name: Collective Rule-Breaking
 speakers: 
   - Jens Krause
 categories:

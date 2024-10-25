@@ -1,5 +1,5 @@
 --- 
-name: Citizen Engagement - Stumbling Block or Priceless Opportunity? 
+name: Citizen Engagement - Stumbling Block or Priceless Opportunity?
 speakers: 
   - Rosy Mondardini
 categories:

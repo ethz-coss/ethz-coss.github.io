@@ -1,5 +1,5 @@
 --- 
-name: Established Democracy and (Non-)Participatory Approaches, AI, Complexity 
+name: Established Democracy and (Non-)Participatory Approaches, AI, Complexity
 speakers: 
   - Regula Hänggli
 categories:

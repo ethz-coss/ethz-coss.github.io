@@ -1,5 +1,5 @@
 --- 
-name: tbd - Stefano Balietti 
+name: tbd - Stefano Balietti
 speakers: 
   - Stefano Balietti
 categories:

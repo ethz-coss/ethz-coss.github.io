@@ -1,5 +1,5 @@
 --- 
-name: Human-AI Symbiosis in a Smart Society 
+name: Human-AI Symbiosis in a Smart Society
 speakers: 
   - Marcello Ienca
 categories:

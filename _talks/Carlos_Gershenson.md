@@ -1,5 +1,5 @@
 --- 
-name: On the Limits of Science and Engineering 
+name: On the Limits of Science and Engineering
 speakers: 
   - Carlos Gershenson
 categories:

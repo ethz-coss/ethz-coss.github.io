@@ -1,5 +1,5 @@
 --- 
-name: tbd - Thomas Maillart 
+name: tbd - Thomas Maillart
 speakers: 
   - Thomas Maillart
 categories:

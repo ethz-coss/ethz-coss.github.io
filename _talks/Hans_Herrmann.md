@@ -1,5 +1,5 @@
 --- 
-name: Social Resilience (v) 
+name: Social Resilience (v)
 speakers: 
   - Hans Herrmann
 categories:

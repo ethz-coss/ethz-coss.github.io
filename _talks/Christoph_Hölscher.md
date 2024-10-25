@@ -1,5 +1,5 @@
 --- 
-name: tbd - Christoph Hölscher 
+name: tbd - Christoph Hölscher
 speakers: 
   - Christoph Hölscher
 categories:

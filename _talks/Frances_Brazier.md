@@ -1,5 +1,5 @@
 --- 
-name: Complex Systems Design 
+name: Complex Systems Design
 speakers: 
   - Frances Brazier
 categories:

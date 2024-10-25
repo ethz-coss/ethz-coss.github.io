@@ -1,5 +1,5 @@
 --- 
-name: tbd - Serge Hoogendoorn 
+name: tbd - Serge Hoogendoorn
 speakers: 
   - Serge Hoogendoorn
 categories:

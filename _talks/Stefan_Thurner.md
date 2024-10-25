@@ -1,5 +1,5 @@
 --- 
-name: tbd - Stefan Thurner 
+name: tbd - Stefan Thurner
 speakers: 
   - Stefan Thurner
 categories:

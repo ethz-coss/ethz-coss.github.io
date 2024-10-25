@@ -13,7 +13,7 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Jens Krause'
-      - name: Principles of Collective Intelligence- From Animal Societies to Human Groups
+      - name: Principles of Collective Intelligence - From Animal Societies to Human Groups
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Guy Theraulaz'
@@ -25,7 +25,7 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Paul Lukowicz'
-      - name: Decision-Centred AI- On the Human-AI Interaction for Wicked Problems
+      - name: Decision-Centred AI - On the Human-AI Interaction for Wicked Problems
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
@@ -75,11 +75,11 @@ days:
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Thomas Maillart'
-      - name: Citizen Engagement- Stumbling Block or Priceless Opportunity?
+      - name: Citizen Engagement - Stumbling Block or Priceless Opportunity?
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Rosy Mondardini'
-      - name: Future Cities- Governance, Responsiveness, Generativity
+      - name: Future Cities - Governance, Responsiveness, Generativity
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Gerhard Schmitt'
@@ -113,7 +113,7 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: The Future of the City- Prediction, Invention and Artificial Intelligence
+      - name: The Future of the City - Prediction, Invention and Artificial Intelligence
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'Michael Batty'
@@ -137,7 +137,7 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Christoph Hölscher'
-      - name: Virtual Roads, Real Solutions- From Academia to the Future of Transportation Digital Twins
+      - name: Virtual Roads, Real Solutions - From Academia to the Future of Transportation Digital Twins
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Lukas Ambühl'
@@ -183,7 +183,7 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Andrej Zwitter'
-      - name: Smart Technology, Trivial Ethics- Proposing De-Trivialization and Academic Rigor for Ethics
+      - name: Smart Technology, Trivial Ethics - Proposing De-Trivialization and Academic Rigor for Ethics
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Peter Seele'
@@ -199,7 +199,7 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Lucas Böttcher'
-      - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays- Will It Be Safer than Human Driving?
+      - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays - Will It Be Safer than Human Driving?
         time_start: '15:30'
         time_end: '16:00'
         speaker: 'Martin Treiber'
@@ -217,7 +217,7 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: Environmental Inequality in European Cities- Empirical Analysis with Geo-Referenced Data
+      - name: Environmental Inequality in European Cities - Empirical Analysis with Geo-Referenced Data
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'Andreas Diekmann'
@@ -229,7 +229,7 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Viktoria Spaiser'
-      - name: Agent-Based Social Simulation- The Dream and the Reality
+      - name: Agent-Based Social Simulation - The Dream and the Reality
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Mario Paolucci'
@@ -245,7 +245,7 @@ days:
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Indushree Banerjee'
-      - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality- A Human-Centric Approach to Urban Innovation
+      - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality - A Human-Centric Approach to Urban Innovation
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Hantao Zhao'

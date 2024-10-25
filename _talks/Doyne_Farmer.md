@@ -1,5 +1,5 @@
 --- 
-name: Modeling the Global Economy  (v) 
+name: Modeling the Global Economy  (v)
 speakers: 
   - Doyne Farmer
 categories:

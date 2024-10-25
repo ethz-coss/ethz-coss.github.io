@@ -26,7 +26,7 @@ for i, row in df.iterrows():
     talk_title = talk_title + virtual_tag
 
     string = f"--- " \
-             f"\nname: {talk_title} " \
+             f"\nname: {talk_title}" \
              f"\nspeakers: " \
              f"\n  - {row['First Name']} {row['Last Name']}" \
              f"\ncategories:" \

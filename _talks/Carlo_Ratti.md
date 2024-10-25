@@ -1,5 +1,5 @@
 --- 
-name: tbd - Carlo Ratti 
+name: tbd - Carlo Ratti
 speakers: 
   - Carlo Ratti
 categories:

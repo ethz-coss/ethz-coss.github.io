@@ -1,5 +1,5 @@
 --- 
-name: Hybrid Intelligence for Digital Democratic Processes 
+name: Hybrid Intelligence for Digital Democratic Processes
 speakers: 
   - Catholijn Jonker
 categories:

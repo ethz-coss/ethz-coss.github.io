@@ -1,5 +1,5 @@
 --- 
-name: tbd - Anna Carbone 
+name: tbd - Anna Carbone
 speakers: 
   - Anna Carbone
 categories:

@@ -1,5 +1,5 @@
 --- 
-name: The Ring of Brownian Motion 
+name: The Ring of Brownian Motion
 speakers: 
   - Peter Hänggi
 categories:

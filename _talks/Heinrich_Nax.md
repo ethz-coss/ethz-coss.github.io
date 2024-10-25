@@ -1,5 +1,5 @@
 --- 
-name: Mechanisms for Cooperation 
+name: Mechanisms for Cooperation
 speakers: 
   - Heinrich Nax
 categories:
