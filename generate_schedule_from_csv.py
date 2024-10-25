@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_251024_v2.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_251024_v3.csv")
 
 days = {1: "Monday", 2: "Tuesday", 3: "Wednesday", 4: "Thursday", 5: "Friday"}
 abbr = {1: "Mo", 2: "Tue", 3: "Wed", 4: "Thu", 5: "Fri"}
@@ -35,11 +35,17 @@ with open("_data/program.yml", "w") as file:
                 end_time = f"0{end_time}"
             print(end_time)
 
+            virtual_tag = ""
+            if str(row['virtual']) == "True":
+                virtual_tag = " (v)"
+
             talk_title = talk_title.replace(":", "-")
-            print(talk_title)
 
             if talk_title == "tbd":
                 talk_title = f"tbd - {row['First Name']} {row['Last Name']}"
+
+            talk_title = talk_title + virtual_tag
+            print(talk_title)
 
             talk_body = f"      - name: {talk_title}\n" \
                         f"        time_start: '{start_time}'\n" \

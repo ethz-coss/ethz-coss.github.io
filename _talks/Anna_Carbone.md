@@ -1,7 +1,7 @@
 --- 
 name: tbd - Anna Carbone 
 speakers: 
-  - Anna Carbone 
+  - Anna Carbone
 categories:
   - Presentation
 ---

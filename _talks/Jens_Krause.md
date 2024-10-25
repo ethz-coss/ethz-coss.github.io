@@ -1,7 +1,7 @@
 --- 
 name: Collective Rule-Breaking 
 speakers: 
-  - Jens Krause 
+  - Jens Krause
 categories:
   - Presentation
 ---

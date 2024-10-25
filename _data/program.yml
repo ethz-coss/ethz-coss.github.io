@@ -99,7 +99,7 @@ days:
         time_start: '15:30'
         time_end: '16:00'
         speaker: 'Stefan Thurner'
-      - name: Social Resilience
+      - name: Social Resilience (v)
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Hans Herrmann'
@@ -187,7 +187,7 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Peter Seele'
-      - name: Traffic of Many Autonomous Drones in 2+ Dimensions
+      - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Tamas Vicsek'
@@ -207,7 +207,7 @@ days:
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Stefan Lämmer'
-      - name: Social Artificial Intelligence
+      - name: Social Artificial Intelligence (v)
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Nicholas Christakis'
@@ -237,7 +237,7 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Regula Hänggli'
-      - name: Rationality in Social Decision Making
+      - name: Rationality in Social Decision Making (v)
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Richard Mann'
@@ -249,7 +249,7 @@ days:
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Hantao Zhao'
-      - name: Modeling the Global Economy 
+      - name: Modeling the Global Economy  (v)
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Doyne Farmer'

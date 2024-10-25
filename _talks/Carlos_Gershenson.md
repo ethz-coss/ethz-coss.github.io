@@ -1,7 +1,7 @@
 --- 
 name: On the Limits of Science and Engineering 
 speakers: 
-  - Carlos Gershenson 
+  - Carlos Gershenson
 categories:
   - Presentation
 ---

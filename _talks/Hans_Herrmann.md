@@ -1,9 +1,9 @@
 --- 
-name: Social Resilience 
+name: Social Resilience (v) 
 speakers: 
-  - Hans Herrmann (v)
+  - Hans Herrmann
 categories:
   - Presentation
 ---
 
-Social Resilience
+Social Resilience (v)

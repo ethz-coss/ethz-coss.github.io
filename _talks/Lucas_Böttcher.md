@@ -1,7 +1,7 @@
 --- 
 name: Decision Making Under Uncertainty 
 speakers: 
-  - Lucas Böttcher 
+  - Lucas Böttcher
 categories:
   - Presentation
 ---

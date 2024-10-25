@@ -1,7 +1,7 @@
 --- 
 name: Future Cities - Governance, Responsiveness, Generativity 
 speakers: 
-  - Gerhard Schmitt 
+  - Gerhard Schmitt
 categories:
   - Presentation
 ---

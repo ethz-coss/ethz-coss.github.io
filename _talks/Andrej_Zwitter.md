@@ -1,7 +1,7 @@
 --- 
 name: Ontological Foundations of a Digital Society 
 speakers: 
-  - Andrej Zwitter 
+  - Andrej Zwitter
 categories:
   - Presentation
 ---

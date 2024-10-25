@@ -1,7 +1,7 @@
 --- 
 name: Mechanisms for Cooperation 
 speakers: 
-  - Heinrich Nax 
+  - Heinrich Nax
 categories:
   - Presentation
 ---

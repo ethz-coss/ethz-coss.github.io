@@ -1,9 +1,9 @@
 --- 
-name: Rationality in Social Decision Making 
+name: Rationality in Social Decision Making (v) 
 speakers: 
-  - Richard Mann (v)
+  - Richard Mann
 categories:
   - Presentation
 ---
 
-Rationality in Social Decision Making
+Rationality in Social Decision Making (v)

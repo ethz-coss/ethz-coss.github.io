@@ -14,19 +14,21 @@ First Name, Last Name, Tentative Title, virtual
 
 for i, row in df.iterrows():
 
+    virtual_tag = ""
+    # print(row["virtual"])
+    if str(row['virtual']) == "True":
+        virtual_tag = " (v)"
+
     talk_title = str(row['Tentative Title']).replace(":", " -")
     if talk_title == "tbd":
         talk_title = f"tbd - {row['First Name']} {row['Last Name']}"
 
-    virtual_tag = ""
-    # print(row["virtual"])
-    if str(row['virtual']) == "True":
-        virtual_tag = "(v)"
+    talk_title = talk_title + virtual_tag
 
     string = f"--- " \
              f"\nname: {talk_title} " \
              f"\nspeakers: " \
-             f"\n  - {row['First Name']} {row['Last Name']} {virtual_tag}" \
+             f"\n  - {row['First Name']} {row['Last Name']}" \
              f"\ncategories:" \
              f"\n  - Presentation" \
              f"\n---" \

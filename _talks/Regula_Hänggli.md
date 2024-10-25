@@ -1,7 +1,7 @@
 --- 
 name: Established Democracy and (Non-)Participatory Approaches, AI, Complexity 
 speakers: 
-  - Regula Hänggli 
+  - Regula Hänggli
 categories:
   - Presentation
 ---

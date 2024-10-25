@@ -1,7 +1,7 @@
 --- 
 name: The Promise and Peril of AI 
 speakers: 
-  - Bernardo Huberman 
+  - Bernardo Huberman
 categories:
   - Presentation
 ---
