@@ -1,7 +1,7 @@
 --- 
 name: tbd - Stefano Balietti 
 speakers: 
-  - Stefano Balietti
+  - Stefano Balietti 
 categories:
   - Presentation
 ---

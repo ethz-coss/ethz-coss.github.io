@@ -1,7 +1,7 @@
 --- 
 name: tbd - Thomas Maillart 
 speakers: 
-  - Thomas Maillart
+  - Thomas Maillart 
 categories:
   - Presentation
 ---

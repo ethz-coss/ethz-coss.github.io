@@ -1,7 +1,7 @@
 --- 
 name: Better Science for a Better World 
 speakers: 
-  - Santo Fortunato
+  - Santo Fortunato 
 categories:
   - Presentation
 ---

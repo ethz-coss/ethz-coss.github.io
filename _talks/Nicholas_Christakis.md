@@ -1,7 +1,7 @@
 --- 
 name: Social Artificial Intelligence 
 speakers: 
-  - Nicholas Christakis
+  - Nicholas Christakis (v)
 categories:
   - Presentation
 ---

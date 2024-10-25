@@ -1,9 +1,9 @@
 --- 
-name: Agent-Based Social Simulation —  The Dream and the Reality 
+name: Agent-Based Social Simulation - The Dream and the Reality 
 speakers: 
-  - Mario Paolucci (v)
+  - Mario Paolucci 
 categories:
   - Presentation
 ---
 
-Agent-Based Social Simulation —  The Dream and the Reality
+Agent-Based Social Simulation - The Dream and the Reality

@@ -1,7 +1,7 @@
 --- 
 name: tbd - Cesar Hidalgo 
 speakers: 
-  - Cesar Hidalgo
+  - Cesar Hidalgo 
 categories:
   - Presentation
 ---

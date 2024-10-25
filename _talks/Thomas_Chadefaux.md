@@ -1,7 +1,7 @@
 --- 
 name: Patterns of Conflict Escalation 
 speakers: 
-  - Thomas Chadefaux
+  - Thomas Chadefaux 
 categories:
   - Presentation
 ---

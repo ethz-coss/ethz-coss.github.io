@@ -1,7 +1,7 @@
 --- 
 name: When Artificial Stupidity Meets Its Natural Counterpart 
 speakers: 
-  - Paul Lukowicz
+  - Paul Lukowicz 
 categories:
   - Presentation
 ---

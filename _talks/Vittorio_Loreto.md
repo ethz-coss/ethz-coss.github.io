@@ -1,7 +1,7 @@
 --- 
 name: New Tools for Urban Regeneration 
 speakers: 
-  - Vittorio Loreto
+  - Vittorio Loreto 
 categories:
   - Presentation
 ---

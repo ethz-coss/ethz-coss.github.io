@@ -1,7 +1,7 @@
 --- 
 name: Of Fish and Fascists 
 speakers: 
-  - Iain Couzin
+  - Iain Couzin 
 categories:
   - Presentation
 ---

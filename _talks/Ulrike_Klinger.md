@@ -1,9 +1,9 @@
 --- 
 name: tbd - Ulrike Klinger 
 speakers: 
-  - Ulrike Klinger
+  - Ulrike Klinger 
 categories:
   - Presentation
 ---
 
-tbd - Ulrike Klinger 
+tbd - Ulrike Klinger

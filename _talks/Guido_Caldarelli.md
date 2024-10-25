@@ -1,7 +1,7 @@
 --- 
 name: Complexity and Networks 
 speakers: 
-  - Guido Caldarelli
+  - Guido Caldarelli 
 categories:
   - Presentation
 ---

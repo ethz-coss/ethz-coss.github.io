@@ -1,7 +1,7 @@
 --- 
 name: tbd - Stefan Thurner 
 speakers: 
-  - Stefan Thurner
+  - Stefan Thurner 
 categories:
   - Presentation
 ---

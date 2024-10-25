@@ -1,7 +1,7 @@
 --- 
 name: Human Values in Complex Systems 
 speakers: 
-  - Indushree Banerjee
+  - Indushree Banerjee 
 categories:
   - Presentation
 ---

@@ -1,7 +1,7 @@
 --- 
 name: Social Resilience 
 speakers: 
-  - Hans Herrmann
+  - Hans Herrmann (v)
 categories:
   - Presentation
 ---

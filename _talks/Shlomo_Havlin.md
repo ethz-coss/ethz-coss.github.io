@@ -1,7 +1,7 @@
 --- 
 name: Network Science and Smarter Society 
 speakers: 
-  - Shlomo Havlin
+  - Shlomo Havlin 
 categories:
   - Presentation
 ---

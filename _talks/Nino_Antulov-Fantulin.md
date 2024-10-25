@@ -1,7 +1,7 @@
 --- 
 name: Machine Learning and Complexity 
 speakers: 
-  - Nino Antulov-Fantulin
+  - Nino Antulov-Fantulin 
 categories:
   - Presentation
 ---

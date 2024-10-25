@@ -1,7 +1,7 @@
 --- 
 name: tbd - Serge Hoogendoorn 
 speakers: 
-  - Serge Hoogendoorn
+  - Serge Hoogendoorn 
 categories:
   - Presentation
 ---

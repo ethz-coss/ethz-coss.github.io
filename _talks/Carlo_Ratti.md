@@ -1,7 +1,7 @@
 --- 
 name: tbd - Carlo Ratti 
 speakers: 
-  - Carlo Ratti
+  - Carlo Ratti 
 categories:
   - Presentation
 ---

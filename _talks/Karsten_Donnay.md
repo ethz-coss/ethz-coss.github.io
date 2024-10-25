@@ -1,7 +1,7 @@
 --- 
 name: How Could AI Change Politics? 
 speakers: 
-  - Karsten Donnay
+  - Karsten Donnay 
 categories:
   - Presentation
 ---
