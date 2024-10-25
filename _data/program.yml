@@ -141,6 +141,10 @@ days:
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Lukas Ambühl'
+      - name: tbd - Ulrike Klinger
+        time_start: '14:00'
+        time_end: '14:30'
+        speaker: 'Ulrike Klinger'
       - name: Rethinking Urban Governance for People, Places and the Planet
         time_start: '14:30'
         time_end: '15:00'
