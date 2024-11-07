@@ -17,6 +17,10 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Guy Theraulaz'
+      - name: nan
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Hybrid Intelligence for Digital Democratic Processes
         time_start: '11:00'
         time_end: '11:30'
@@ -29,6 +33,14 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
+      - name: nan
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
       - name: The Promise and Peril of AI
         time_start: '13:30'
         time_end: '14:00'
@@ -41,6 +53,10 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Karsten Donnay'
+      - name: nan
+        time_start: '15:00'
+        time_end: '15.30'
+        speaker: 'nan nan'
       - name: Network Science and Smarter Society
         time_start: '16:00'
         time_end: '16:30'
@@ -59,6 +75,10 @@ days:
   rooms:
   - name: LEE E 101
     talks:
+      - name: nan
+        time_start: '09:00'
+        time_end: '09:30'
+        speaker: 'Cesar Hidalgo'
       - name: Complexity and Networks
         time_start: '09:30'
         time_end: '10:00'
@@ -67,6 +87,14 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Evangelos Pournaras'
+      - name: nan
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '11:00'
+        time_end: '11:30'
+        speaker: 'Thomas Maillart'
       - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
         time_start: '11:30'
         time_end: '12:00'
@@ -75,6 +103,14 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Gerhard Schmitt'
+      - name: nan
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
       - name: Modeling and Decision Making in Complex Societies
         time_start: '13:30'
         time_end: '14:00'
@@ -87,6 +123,14 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Peter Hänggi'
+      - name: nan
+        time_start: '15:00'
+        time_end: '15.30'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'Stefan Thurner'
       - name: Social Resilience (v)
         time_start: '16:00'
         time_end: '16:30'
@@ -109,22 +153,62 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Denise Pumain'
+      - name: nan
+        time_start: '10:00'
+        time_end: '10:30'
+        speaker: 'Carlo Ratti'
+      - name: nan
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Efrat Blumenfeld'
+      - name: nan
+        time_start: '11:30'
+        time_end: '12:00'
+        speaker: 'Serge Hoogendoorn'
+      - name: nan
+        time_start: '12:00'
+        time_end: '12:30'
+        speaker: 'Christoph Hölscher'
+      - name: nan
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
       - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Lukas Ambühl'
+      - name: nan
+        time_start: '14:00'
+        time_end: '14:30'
+        speaker: 'Ulrike Klinger'
       - name: Rethinking Urban Governance for People, Places and the Planet
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Trivik Verma'
+      - name: nan
+        time_start: '15:00'
+        time_end: '15.30'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'Stefano Balietti'
       - name: Patterns of Conflict Escalation
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Thomas Chadefaux'
+      - name: nan
+        time_start: '16:30'
+        time_end: '17:00'
+        speaker: 'nan nan'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
@@ -139,6 +223,14 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Vittorio Loreto'
+      - name: nan
+        time_start: '10:00'
+        time_end: '10:30'
+        speaker: 'Jeroen van den Hoven'
+      - name: nan
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Human-AI Symbiosis in a Smart Society
         time_start: '11:00'
         time_end: '11:30'
@@ -151,14 +243,30 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Peter Seele'
+      - name: nan
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Tamas Vicsek'
+      - name: nan
+        time_start: '14:00'
+        time_end: '14:30'
+        speaker: 'Anna Carbone'
       - name: Decision Making Under Uncertainty
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Lucas Böttcher'
+      - name: nan
+        time_start: '15:00'
+        time_end: '15.30'
+        speaker: 'nan nan'
       - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays - Will It Be Safer than Human Driving?
         time_start: '15:30'
         time_end: '16:00'
@@ -189,6 +297,10 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Viktoria Spaiser'
+      - name: nan
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Agent-Based Social Simulation - The Dream and the Reality
         time_start: '11:00'
         time_end: '11:30'
@@ -201,6 +313,14 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Richard Mann'
+      - name: nan
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name: nan
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
       - name: Human Values in Complex Systems
         time_start: '13:30'
         time_end: '14:00'
@@ -213,6 +333,10 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Doyne Farmer'
+      - name: nan
+        time_start: '15:00'
+        time_end: '15.30'
+        speaker: 'nan nan'
       - name: Surprise Talk
         time_start: '15:30'
         time_end: '16:00'
