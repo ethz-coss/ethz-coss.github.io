@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_071124_v2.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_071124_v3.csv")
 
 import glob
 
@@ -20,7 +20,7 @@ for i, row in df.iterrows():
         virtual_tag = " (v)"
 
     talk_title = str(row['Tentative Title']).replace(":", " -")
-    if (talk_title == "tbd") or (talk_title == "nan"):
+    if talk_title == "tbd":
         talk_title = f"tbd - {row['First Name']} {row['Last Name']}"
 
     talk_title = talk_title + virtual_tag
