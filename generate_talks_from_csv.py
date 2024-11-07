@@ -20,7 +20,7 @@ for i, row in df.iterrows():
         virtual_tag = " (v)"
 
     talk_title = str(row['Tentative Title']).replace(":", " -")
-    if talk_title == "tbd":
+    if (talk_title == "tbd") or (talk_title == "nan"):
         talk_title = f"tbd - {row['First Name']} {row['Last Name']}"
 
     talk_title = talk_title + virtual_tag

@@ -25,7 +25,7 @@ with open("_data/program.yml", "w") as file:
             previous_day = day
 
         talk_title = str(row["Tentative Title"])
-        if talk_title != "nan":  # check if not NaN
+        if (talk_title != "nan") or (talk_title != ""):  # check if not NaN
             start_time = row["Time"].split("-")[0]
             end_time = row["Time"].split("-")[-1]
             speaker = f"{row['First Name']} {row['Last Name']}"
