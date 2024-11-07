@@ -1,5 +1,5 @@
 --- 
-name: Surprise Talk 
+name: Surprise Talk
 speakers: 
   - Surprise Speaker
 categories:
