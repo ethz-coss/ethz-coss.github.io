@@ -25,7 +25,7 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Paul Lukowicz'
-      - name: Decision-Centred AI - On the Human-AI Interaction for Wicked Problems
+      - name: Decision-Centred AI. On the Human-AI Interaction for Wicked Problems
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
@@ -59,23 +59,15 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: tbd - Cesar Hidalgo
-        time_start: '09:00'
-        time_end: '09:30'
-        speaker: 'Cesar Hidalgo'
-      - name: New Tools for Urban Regeneration
+      - name: Complexity and Networks
         time_start: '09:30'
         time_end: '10:00'
-        speaker: 'Vittorio Loreto'
+        speaker: 'Guido Caldarelli'
       - name: Digitally Assisted Collective Governance of Smart City Commons
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Evangelos Pournaras'
-      - name: tbd - Thomas Maillart
-        time_start: '11:00'
-        time_end: '11:30'
-        speaker: 'Thomas Maillart'
-      - name: Citizen Engagement - Stumbling Block or Priceless Opportunity?
+      - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Rosy Mondardini'
@@ -87,7 +79,7 @@ days:
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Alessandro Vespignani'
-      - name: Better Science for a Better World
+      - name: Better science for a better world
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Santo Fortunato'
@@ -95,10 +87,6 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Peter Hänggi'
-      - name: tbd - Stefan Thurner
-        time_start: '15:30'
-        time_end: '16:00'
-        speaker: 'Stefan Thurner'
       - name: Social Resilience (v)
         time_start: '16:00'
         time_end: '16:30'
@@ -121,38 +109,18 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Denise Pumain'
-      - name: tbd - Carlo Ratti
-        time_start: '10:00'
-        time_end: '10:30'
-        speaker: 'Carlo Ratti'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Efrat Blumenfeld'
-      - name: tbd - Serge Hoogendoorn
-        time_start: '11:30'
-        time_end: '12:00'
-        speaker: 'Serge Hoogendoorn'
-      - name: tbd - Christoph Hölscher
-        time_start: '12:00'
-        time_end: '12:30'
-        speaker: 'Christoph Hölscher'
-      - name: Virtual Roads, Real Solutions - From Academia to the Future of Transportation Digital Twins
+      - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Lukas Ambühl'
-      - name: tbd - Ulrike Klinger
-        time_start: '14:00'
-        time_end: '14:30'
-        speaker: 'Ulrike Klinger'
       - name: Rethinking Urban Governance for People, Places and the Planet
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Trivik Verma'
-      - name: tbd - Stefano Balietti
-        time_start: '15:30'
-        time_end: '16:00'
-        speaker: 'Stefano Balietti'
       - name: Patterns of Conflict Escalation
         time_start: '16:00'
         time_end: '16:30'
@@ -167,14 +135,10 @@ days:
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'János Kertész'
-      - name: Complexity and Networks
+      - name: New Tools for Urban Regeneration
         time_start: '09:30'
         time_end: '10:00'
-        speaker: 'Guido Caldarelli'
-      - name: tbd - Jeroen van den Hoven
-        time_start: '10:00'
-        time_end: '10:30'
-        speaker: 'Jeroen van den Hoven'
+        speaker: 'Vittorio Loreto'
       - name: Human-AI Symbiosis in a Smart Society
         time_start: '11:00'
         time_end: '11:30'
@@ -191,10 +155,6 @@ days:
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Tamas Vicsek'
-      - name: tbd - Anna Carbone
-        time_start: '14:00'
-        time_end: '14:30'
-        speaker: 'Anna Carbone'
       - name: Decision Making Under Uncertainty
         time_start: '14:30'
         time_end: '15:00'
@@ -217,7 +177,7 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: Environmental Inequality in European Cities - Empirical Analysis with Geo-Referenced Data
+      - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'Andreas Diekmann'
@@ -245,7 +205,7 @@ days:
         time_start: '13:30'
         time_end: '14:00'
         speaker: 'Indushree Banerjee'
-      - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality - A Human-Centric Approach to Urban Innovation
+      - name: Empowering Smart Cities with Human-Robot Synergy
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Hantao Zhao'
@@ -261,7 +221,7 @@ days:
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Surprise Speaker'
-      - name: Surprise Talk
+      - name: Realistic Residential Segregation and Opinion Polarization Dynamics
         time_start: '16:30'
         time_end: '17:00'
-        speaker: 'Surprise Speaker'
+        speaker: 'Andreas Flache'
