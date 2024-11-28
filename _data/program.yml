@@ -157,6 +157,10 @@ days:
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Thomas Chadefaux'
+      - name: Back to the Future
+        time_start: '16:30'
+        time_end: '17:00'
+        speaker: 'Dirk Helbing'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
