@@ -37,9 +37,9 @@
           <th scope="row" class="text-center" style="width: auto, white-space: nowrap;">
             {% if current_time == "10:30" %}
               <strong>Break</strong>
-            {% elsif current_time == "12:30" or current_time == "13:00" %}
+            {% elsif current_time == "12:30" or current_time == "13:00" or current_time == "13:30" %}
               <strong>Lunch</strong>
-            {% elsif current_time == "15:00" %}
+            {% elsif current_time == "15:30" %}
               <strong>Break</strong>
             {% else %}
               {{ current_time }}

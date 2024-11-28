@@ -30,28 +30,28 @@ days:
         time_end: '12:30'
         speaker: 'Tina Comes'
       - name: The Promise and Peril of AI
-        time_start: '13:30'
-        time_end: '14:00'
-        speaker: 'Bernardo Huberman'
-      - name: Machine Learning and Complexity
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Nino Antulov-Fantulin'
-      - name: How Could AI Change Politics?
+        speaker: 'Bernardo Huberman'
+      - name: Machine Learning and Complexity
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Nino Antulov-Fantulin'
+      - name: How Could AI Change Politics?
+        time_start: '15:00'
+        time_end: '15.30'
         speaker: 'Karsten Donnay'
       - name: Network Science and Smarter Society
-        time_start: '16:00'
-        time_end: '16:30'
-        speaker: 'Shlomo Havlin'
-      - name: Complex Systems Design
         time_start: '15:30'
         time_end: '16:00'
-        speaker: 'Frances Brazier'
-      - name: On the Limits of Science and Engineering
+        speaker: 'Shlomo Havlin'
+      - name: Complex Systems Design
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Frances Brazier'
+      - name: On the Limits of Science and Engineering
+        time_start: '17:00'
+        time_end: '17:30'
         speaker: 'Carlos Gershenson'
 - name: Tuesday
   abbr: Tue
@@ -84,28 +84,28 @@ days:
         time_end: '12:30'
         speaker: 'Gerhard Schmitt'
       - name: Modeling and Decision Making in Complex Societies
-        time_start: '13:30'
-        time_end: '14:00'
-        speaker: 'Alessandro Vespignani'
-      - name: Better science for a better world
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Santo Fortunato'
-      - name: The Ring of Brownian Motion
+        speaker: 'Alessandro Vespignani'
+      - name: Better science for a better world
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Santo Fortunato'
+      - name: The Ring of Brownian Motion
+        time_start: '15:00'
+        time_end: '15.30'
         speaker: 'Peter Hänggi'
       - name: tbd - Stefan Thurner
-        time_start: '15:30'
-        time_end: '16:00'
-        speaker: 'Stefan Thurner'
-      - name: Social Resilience (v)
         time_start: '16:00'
         time_end: '16:30'
-        speaker: 'Hans Herrmann'
-      - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
+        speaker: 'Stefan Thurner'
+      - name: Social Resilience (v)
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Hans Herrmann'
+      - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
+        time_start: '17:00'
+        time_end: '17:30'
         speaker: 'Nikolas Geroliminis'
 - name: Wednesday
   abbr: Wed
@@ -138,28 +138,28 @@ days:
         time_end: '12:30'
         speaker: 'Christoph Hölscher'
       - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
-        time_start: '13:30'
-        time_end: '14:00'
-        speaker: 'Lukas Ambühl'
-      - name: tbd - Ulrike Klinger
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Ulrike Klinger'
-      - name: Rethinking Urban Governance for People, Places and the Planet
+        speaker: 'Lukas Ambühl'
+      - name: tbd - Ulrike Klinger
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Ulrike Klinger'
+      - name: Rethinking Urban Governance for People, Places and the Planet
+        time_start: '15:00'
+        time_end: '15.30'
         speaker: 'Trivik Verma'
       - name: tbd - Stefano Balietti
-        time_start: '15:30'
-        time_end: '16:00'
-        speaker: 'Stefano Balietti'
-      - name: Patterns of Conflict Escalation
         time_start: '16:00'
         time_end: '16:30'
-        speaker: 'Thomas Chadefaux'
-      - name: Back to the Future
+        speaker: 'Stefano Balietti'
+      - name: Patterns of Conflict Escalation
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Thomas Chadefaux'
+      - name: Back to the Future
+        time_start: '17:00'
+        time_end: '17:30'
         speaker: 'Dirk Helbing'
 - name: Thursday
   abbr: Thu
@@ -192,28 +192,28 @@ days:
         time_end: '12:30'
         speaker: 'Peter Seele'
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
-        time_start: '13:30'
-        time_end: '14:00'
-        speaker: 'Tamas Vicsek'
-      - name: tbd - Anna Carbone
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Anna Carbone'
-      - name: Decision Making Under Uncertainty
+        speaker: 'Tamas Vicsek'
+      - name: tbd - Anna Carbone
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Anna Carbone'
+      - name: Decision Making Under Uncertainty
+        time_start: '15:00'
+        time_end: '15.30'
         speaker: 'Lucas Böttcher'
       - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays - Will It Be Safer than Human Driving?
-        time_start: '15:30'
-        time_end: '16:00'
-        speaker: 'Martin Treiber'
-      - name: What Should Urban Traffic Be Optimized For?
         time_start: '16:00'
         time_end: '16:30'
-        speaker: 'Stefan Lämmer'
-      - name: Social Artificial Intelligence (v)
+        speaker: 'Martin Treiber'
+      - name: What Should Urban Traffic Be Optimized For?
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Stefan Lämmer'
+      - name: Social Artificial Intelligence (v)
+        time_start: '17:00'
+        time_end: '17:30'
         speaker: 'Nicholas Christakis'
 - name: Friday
   abbr: Fri
@@ -246,26 +246,26 @@ days:
         time_end: '12:30'
         speaker: 'Richard Mann'
       - name: Human Values in Complex Systems
-        time_start: '13:30'
-        time_end: '14:00'
-        speaker: 'Indushree Banerjee'
-      - name: Empowering Smart Cities with Human-Robot Synergy
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Hantao Zhao'
-      - name: Modeling the Global Economy  (v)
+        speaker: 'Indushree Banerjee'
+      - name: Empowering Smart Cities with Human-Robot Synergy
         time_start: '14:30'
         time_end: '15:00'
+        speaker: 'Hantao Zhao'
+      - name: Modeling the Global Economy  (v)
+        time_start: '15:00'
+        time_end: '15.30'
         speaker: 'Doyne Farmer'
-      - name: Surprise Talk
-        time_start: '15:30'
-        time_end: '16:00'
-        speaker: 'Surprise Speaker'
       - name: Surprise Talk
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Surprise Speaker'
-      - name: Realistic Residential Segregation and Opinion Polarization Dynamics
+      - name: Surprise Talk
         time_start: '16:30'
         time_end: '17:00'
+        speaker: 'Surprise Speaker'
+      - name: Realistic Residential Segregation and Opinion Polarization Dynamics
+        time_start: '17:00'
+        time_end: '17:30'
         speaker: 'Andreas Flache'
