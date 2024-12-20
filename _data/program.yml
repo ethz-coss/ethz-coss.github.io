@@ -9,31 +9,47 @@ days:
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'Iain Couzin'
-      - name: Collective Rule-Breaking
+      - name: Collective Rule-Breaking 
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Jens Krause'
-      - name: Principles of Collective Intelligence - From Animal Societies to Human Groups
+      - name: Principles of collective intelligence - from animal societies to human groups
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Guy Theraulaz'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Hybrid Intelligence for Digital Democratic Processes
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Catholijn Jonker'
-      - name: When Artificial Stupidity Meets Its Natural Counterpart
+      - name: When Artificial Stupidity Meets its Natural Counterpart
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Paul Lukowicz'
-      - name: Decision-Centred AI. On the Human-AI Interaction for Wicked Problems
+      - name: Decision-Centred AI.  On the Human-AI Interaction for Wicked Problems
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
-      - name: The Promise and Peril of AI
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
+      - name: The promise and peril of AI
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Bernardo Huberman'
-      - name: Machine Learning and Complexity
+      - name: ML and Complexity
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Nino Antulov-Fantulin'
@@ -41,9 +57,13 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Karsten Donnay'
-      - name: Network Science and Smarter Society
+      - name:  
         time_start: '16:00'
         time_end: '16:30'
+        speaker: 'nan nan'
+      - name: Network Science and Smarter Society 
+        time_start: '15:30'
+        time_end: '16:00'
         speaker: 'Shlomo Havlin'
       - name: Complex Systems Design
         time_start: '16:30'
@@ -59,7 +79,7 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: tbd - Cesar Hidalgo
+      - name: The Wisdom of Conflicted Crowds - From Divisiveness to Augmented Democracy
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'Cesar Hidalgo'
@@ -67,15 +87,19 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Guido Caldarelli'
-      - name: Digitally Assisted Collective Governance of Smart City Commons
+      - name: Digitally-assisted Collective Governance of Smart City Commons
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Evangelos Pournaras'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: tbd - Thomas Maillart
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Thomas Maillart'
-      - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
+      - name: tbd - Rosy Mondardini
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Rosy Mondardini'
@@ -83,41 +107,57 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Gerhard Schmitt'
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
       - name: Modeling and Decision Making in Complex Societies
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Alessandro Vespignani'
-      - name: Better science for a better world
+      - name: Symmetry Breaking in Optimal Transport Networks
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Santo Fortunato'
-      - name: The Ring of Brownian Motion
+      - name: The Ring of Brownian Motion. Its Beneficial Use for Physics and Elsewhere
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Peter Hänggi'
-      - name: tbd - Stefan Thurner
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
+      - name: Why Understanding Supply Chains Makes it Necessary to Rethink Economics
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Stefan Thurner'
-      - name: Social Resilience (v)
+      - name: How on Demand Transport can Cooperate with Public Transportation for City Mobility
         time_start: '16:30'
         time_end: '17:00'
-        speaker: 'Hans Herrmann'
-      - name: How on Demand Transport Can Cooperate with Public Transportation for City Mobility
+        speaker: 'Nikolas Geroliminis'
+      - name: Social Resilience (v)
         time_start: '17:00'
         time_end: '17:30'
-        speaker: 'Nikolas Geroliminis'
+        speaker: 'Hans J. Herrmann'
 - name: Wednesday
   abbr: Wed
   date: 2025-02-12
   rooms:
   - name: LEE E 101
     talks:
-      - name: The Future of the City - Prediction, Invention and Artificial Intelligence
+      - name: Simulating the Future City - Where AI Meets Design
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'Michael Batty'
-      - name: Can We Make the Co-Evolution of Cities Smarter?
+      - name: Can we Make the Co-Evolution of Cities Smarter?
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Denise Pumain'
@@ -125,6 +165,10 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Carlo Ratti'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
@@ -137,7 +181,19 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Christoph Hölscher'
-      - name: Virtual Roads, Real Solutions – From Academia to the Future of Transportation Digital Twins
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
+      - name: Virtual Roads, Real Solutions - From Academia to the Future of Transportation Digital Twins
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Lukas Ambühl'
@@ -149,7 +205,11 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Trivik Verma'
-      - name: tbd - Stefano Balietti
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
+      - name: Decentralized Autonomous Organizations (DAOs) - Challenges and Opportunities
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Stefano Balietti'
@@ -171,14 +231,18 @@ days:
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'János Kertész'
-      - name: New Tools for Urban Regeneration
+      - name: New Tools for Urban Regeneration 
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Vittorio Loreto'
-      - name: tbd - Jeroen van den Hoven
+      - name: Ethics and New Technology - How to Make Moral Progress
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Jeroen van den Hoven'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Human-AI Symbiosis in a Smart Society
         time_start: '11:00'
         time_end: '11:30'
@@ -191,11 +255,23 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Surprise Speaker'
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Tamas Vicsek'
-      - name: tbd - Anna Carbone
+      - name: Atlas of Urban Scaling Laws
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Anna Carbone'
@@ -203,24 +279,28 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Lucas Böttcher'
-      - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays - Will It Be Safer than Human Driving?
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
+      - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays - Will it be Safer than Human Driving?
         time_start: '16:00'
         time_end: '16:30'
         speaker: 'Martin Treiber'
-      - name: What Should Urban Traffic Be Optimized For?
+      - name: What Should Urban Traffic be optimized for?
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefan Lämmer'
-      - name: Social Artificial Intelligence (v)
-        time_start: '17:00'
-        time_end: '17:30'
-        speaker: 'Nicholas Christakis'
 - name: Friday
   abbr: Fri
   date: 2025-02-14
   rooms:
   - name: LEE E 101
     talks:
+      - name: Social Artificial Intelligence (v)
+        time_start: '17:00'
+        time_end: '17:30'
+        speaker: 'Nicholas Christakis'
       - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
         time_start: '09:00'
         time_end: '09:30'
@@ -229,34 +309,54 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Heinrich Nax'
-      - name: Smarter Societies at the Brink of Climate Emergency?
+      - name: Smarter Societies at the Brink of Climate Emergency? 
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Viktoria Spaiser'
-      - name: Agent-Based Social Simulation - The Dream and the Reality
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
+      - name: Agent-Based Social Simulation - the Dream and the Reality
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Mario Paolucci'
-      - name: Established Democracy and (Non-)Participatory Approaches, AI, Complexity
+      - name: Established Democracy and (Non-)Participatory Approaches, AI, complexity
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Regula Hänggli'
-      - name: Rationality in Social Decision Making (v)
+      - name: Rationality in Social Decision Making  (v)
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Richard Mann'
-      - name: Human Values in Complex Systems
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
+      - name: Human Values in Complex systems
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Indushree Banerjee'
-      - name: Empowering Smart Cities with Human-Robot Synergy
+      - name: Empowering Smart Cities through the Convergence of Artificial Intelligence, Virtual Reality, and Augmented Reality - A Human-Centric Approach to Urban Innovation
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Hantao Zhao'
-      - name: Modeling the Global Economy  (v)
+      - name: Modeling the Global Economy (v)
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Doyne Farmer'
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
       - name: Surprise Talk
         time_start: '16:00'
         time_end: '16:30'
