@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_130125_v1.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_130125_v2.csv")
 
 days = {1: "Monday", 2: "Tuesday", 3: "Wednesday", 4: "Thursday", 5: "Friday"}
 abbr = {1: "Mo", 2: "Tue", 3: "Wed", 4: "Thu", 5: "Fri"}
@@ -25,7 +25,7 @@ with open("_data/program.yml", "w") as file:
             previous_day = day
 
         talk_title = str(row["Tentative Title"])
-        if talk_title != "nan":  # check if not NaN
+        if talk_title != "nan" or talk_title != "" or talk_title != " ":  # check if not NaN
             start_time = row["Time"].split("-")[0]
             end_time = row["Time"].split("-")[-1]
             speaker = f"{row['First Name']} {row['Last Name']}"
