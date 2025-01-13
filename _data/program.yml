@@ -29,10 +29,10 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
-      - name: Surprise Talk
+      - name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Surprise Speaker'
+        speaker: 'Sachit Mahajan'
       - name: ML and Complexity
         time_start: '14:30'
         time_end: '15:00'
@@ -121,10 +121,10 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Denise Pumain'
-      - name: tbd - Carlo Ratti
+      - name: Urban Planing the Unconventional, the Unintuitive, and the Unexpected
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Carlo Ratti'
+        speaker: 'Javier Argota Sanchez-Vaquerizo'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
@@ -157,9 +157,13 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Thomas Chadefaux'
-      - name: Back to the Future
+      - name: Surprise Talk
         time_start: '17:00'
         time_end: '17:30'
+        speaker: 'Surprise Speaker'
+      - name: Back to the Future
+        time_start: '19:00'
+        time_end: '19:30'
         speaker: 'Dirk Helbing'
 - name: Thursday
   abbr: Thu
@@ -175,10 +179,10 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Vittorio Loreto'
-      - name: Surprise Talk
+      - name: City Size Inequality Increases with Economic Development
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Surprise Speaker'
+        speaker: 'Andrea Musso'
       - name: Human-AI Symbiosis in a Smart Society
         time_start: '11:00'
         time_end: '11:30'
@@ -257,15 +261,15 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Doyne Farmer'
-      - name: Surprise Talk
+      - name: Realistic Residential Segregation and Opinion Polarization Dynamics
         time_start: '16:00'
         time_end: '16:30'
-        speaker: 'Surprise Speaker'
-      - name: Surprise Talk
+        speaker: 'Andreas Flache'
+      - name: Allowing Collective Intelligence at Massive Scale
         time_start: '16:30'
         time_end: '17:00'
-        speaker: 'Surprise Speaker'
-      - name: Realistic Residential Segregation and Opinion Polarization Dynamics
+        speaker: 'Dino Carpentras'
+      - name: tbd - Frank Schweitzer
         time_start: '17:00'
         time_end: '17:30'
-        speaker: 'Andreas Flache'
+        speaker: 'Frank Schweitzer'
