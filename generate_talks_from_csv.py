@@ -1,7 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_130125_v1.csv")
-
+print(df)
 import glob
 
 existing_files = glob.glob("_talks/*.md")
@@ -13,7 +13,7 @@ First Name, Last Name, Tentative Title, virtual
 """
 
 for i, row in df.iterrows():
-    if len(str(row['Last Name'])) < 1:  # exclude empty string last names
+    if len(str(row['Last Name'])) > 1:  # exclude empty string last names
         virtual_tag = ""
         # print(row["virtual"])
         if str(row['virtual']) == "True":
