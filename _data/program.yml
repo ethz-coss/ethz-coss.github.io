@@ -17,6 +17,10 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Guy Theraulaz'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Hybrid Intelligence for Digital Democratic Processes
         time_start: '11:00'
         time_end: '11:30'
@@ -29,10 +33,22 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
-      - name: The promise and peril of AI
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
+      - name: Surprise Talk
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Bernardo Huberman'
+        speaker: 'Surprise Speaker'
       - name: ML and Complexity
         time_start: '14:30'
         time_end: '15:00'
@@ -41,6 +57,10 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Karsten Donnay'
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
       - name: Network Science and Smarter Society 
         time_start: '16:00'
         time_end: '16:30'
@@ -71,6 +91,10 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Evangelos Pournaras'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: tbd - Thomas Maillart
         time_start: '11:00'
         time_end: '11:30'
@@ -83,11 +107,23 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Gerhard Schmitt'
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
       - name: Modeling and Decision Making in Complex Societies
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Alessandro Vespignani'
-      - name: Symmetry Breaking in Optimal Transport Networks
+      - name: Better Science for a Better World
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Santo Fortunato'
@@ -95,6 +131,10 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Peter Hänggi'
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
       - name: Why Understanding Supply Chains Makes it Necessary to Rethink Economics
         time_start: '16:00'
         time_end: '16:30'
@@ -103,7 +143,7 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Nikolas Geroliminis'
-      - name: Social Resilience (v)
+      - name: Social Resilience
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Hans J. Herrmann'
@@ -125,6 +165,10 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Carlo Ratti'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
@@ -137,6 +181,18 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Christoph Hölscher'
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
       - name: Virtual Roads, Real Solutions - From Academia to the Future of Transportation Digital Twins
         time_start: '14:00'
         time_end: '14:30'
@@ -149,6 +205,10 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Trivik Verma'
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
       - name: Decentralized Autonomous Organizations (DAOs) - Challenges and Opportunities
         time_start: '16:00'
         time_end: '16:30'
@@ -167,7 +227,7 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: Economic Crime as a Social Phenomenon
+      - name: Economic Crime as a Social Phenomenon (v)
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'János Kertész'
@@ -175,10 +235,14 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Vittorio Loreto'
-      - name: Ethics and New Technology - How to Make Moral Progress
+      - name: Surprise Talk
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Jeroen van den Hoven'
+        speaker: 'Surprise Speaker'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Human-AI Symbiosis in a Smart Society
         time_start: '11:00'
         time_end: '11:30'
@@ -191,6 +255,18 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Surprise Speaker'
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
         time_start: '14:00'
         time_end: '14:30'
@@ -203,6 +279,10 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Lucas Böttcher'
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
       - name: Anticipation Heuristics and Prediction Horizons of Automated Vehicles in the Presence of Delays - Will it be Safer than Human Driving?
         time_start: '16:00'
         time_end: '16:30'
@@ -211,16 +291,16 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefan Lämmer'
+      - name: Social Artificial Intelligence (v)
+        time_start: '17:00'
+        time_end: '17:30'
+        speaker: 'Nicholas Christakis'
 - name: Friday
   abbr: Fri
   date: 2025-02-14
   rooms:
   - name: LEE E 101
     talks:
-      - name: Social Artificial Intelligence (v)
-        time_start: '17:00'
-        time_end: '17:30'
-        speaker: 'Nicholas Christakis'
       - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
         time_start: '09:00'
         time_end: '09:30'
@@ -229,10 +309,14 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Heinrich Nax'
-      - name: Smarter Societies at the Brink of Climate Emergency? 
+      - name:  
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Viktoria Spaiser'
+      - name:  
+        time_start: '10:30'
+        time_end: '11:00'
+        speaker: 'nan nan'
       - name: Agent-Based Social Simulation - the Dream and the Reality
         time_start: '11:00'
         time_end: '11:30'
@@ -245,6 +329,18 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Richard Mann'
+      - name:  
+        time_start: '12:30'
+        time_end: '13:00'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:00'
+        time_end: '13:30'
+        speaker: 'nan nan'
+      - name:  
+        time_start: '13:30'
+        time_end: '14:00'
+        speaker: 'nan nan'
       - name: Human Values in Complex systems
         time_start: '14:00'
         time_end: '14:30'
@@ -257,6 +353,10 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Doyne Farmer'
+      - name:  
+        time_start: '15:30'
+        time_end: '16:00'
+        speaker: 'nan nan'
       - name: Surprise Talk
         time_start: '16:00'
         time_end: '16:30'
