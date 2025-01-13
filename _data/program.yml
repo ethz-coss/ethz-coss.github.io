@@ -229,10 +229,10 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Heinrich Nax'
-      - name:  
+      - name: Smarter Societies at the Brink of Climate Emergency? 
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Viktoria Spaiser'
+        speaker: 'Viktoria Spaiser Mann'
       - name: Agent-Based Social Simulation - the Dream and the Reality
         time_start: '11:00'
         time_end: '11:30'

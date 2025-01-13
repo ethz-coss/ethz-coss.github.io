@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_130125_v1.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/ScheduleSandbox_forWebsite_130125_v3.csv")
 print(df)
 import glob
 
@@ -40,6 +40,7 @@ for i, row in df.iterrows():
             f = open(path, "a")
             f.write(string)
             f.close()
+            print(path)
 
 # print("There are", len(confirmed_speakers), "confirmed speakers")
 # print("There are", len(specified_talks), "specified talks")
