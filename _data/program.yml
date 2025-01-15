@@ -13,10 +13,10 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Jens Krause'
-      - name: Principles of collective intelligence - from animal societies to human groups
+      - name: Digital Twins of Regeneration and Degeneration of Liver Microarchitecture - Biological Complexity Meets Physics
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Guy Theraulaz'
+        speaker: 'Dirk Drasdo'
       - name: Hybrid Intelligence for Digital Democratic Processes
         time_start: '11:00'
         time_end: '11:30'
@@ -32,15 +32,15 @@ days:
       - name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Sachit Mahajan'
+        speaker: 'Karsten Donnay'
       - name: ML and Complexity
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Nino Antulov-Fantulin'
-      - name: How Could AI Change Politics?
+      - name: The Algorithm Game
         time_start: '15:00'
         time_end: '15.30'
-        speaker: 'Karsten Donnay'
+        speaker: 'Cesare Carissimo'
       - name: Network Science and Smarter Society 
         time_start: '16:00'
         time_end: '16:30'
@@ -53,6 +53,10 @@ days:
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Carlos Gershenson'
+      - name: From FutureICT to FuturICT 2.0
+        time_start: '17:30'
+        time_end: '17:45'
+        speaker: 'Jose Jacob Kalayil'
 - name: Tuesday
   abbr: Tue
   date: 2025-02-11
@@ -124,7 +128,7 @@ days:
       - name: Urban Planing the Unconventional, the Unintuitive, and the Unexpected
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Javier Argota Sanchez-Vaquerizo'
+        speaker: 'Javier Argota Sánchez-Vaquerizo'
       - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
         time_start: '11:00'
         time_end: '11:30'
@@ -137,30 +141,30 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Christoph Hölscher'
-      - name: Virtual Roads, Real Solutions - From Academia to the Future of Transportation Digital Twins
+      - name: E-Bike-City
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Lukas Ambühl'
-      - name: Surprise Talk
+        speaker: 'Kay Axhausen'
+      - name: Virtual Roads, Real Solutions - From Academia to the Future of Transportation Digital Twins
         time_start: '14:30'
         time_end: '15:00'
-        speaker: 'Surprise Speaker'
+        speaker: 'Lukas Ambühl'
       - name: Rethinking Urban Governance for People, Places and the Planet
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Trivik Verma'
-      - name: Decentralized Autonomous Organizations (DAOs) - Challenges and Opportunities
+      - name: Democratasing Traffic Signal Control
         time_start: '16:00'
         time_end: '16:30'
-        speaker: 'Stefano Balietti'
-      - name: Patterns of Conflict Escalation
+        speaker: 'Damian Dailisan'
+      - name: Decentralized Autonomous Organizations (DAOs) - Challenges and Opportunities
         time_start: '16:30'
         time_end: '17:00'
-        speaker: 'Thomas Chadefaux'
-      - name: Surprise Talk
+        speaker: 'Stefano Balietti'
+      - name: City Size Inequality Increases with Economic Development
         time_start: '17:00'
         time_end: '17:30'
-        speaker: 'Surprise Speaker'
+        speaker: 'Andrea Musso'
       - name: Back to the Future
         time_start: '19:00'
         time_end: '19:30'
@@ -171,7 +175,7 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: Economic Crime as a Social Phenomenon (v)
+      - name: Economic Crime as a Social Phenomenon
         time_start: '09:00'
         time_end: '09:30'
         speaker: 'János Kertész'
@@ -179,23 +183,23 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Vittorio Loreto'
-      - name: City Size Inequality Increases with Economic Development
+      - name: Human Choices and AI Collective Decision Making
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Andrea Musso'
-      - name: Human-AI Symbiosis in a Smart Society
+        speaker: 'Joshua Yang'
+      - name: The Art of Legitimate Decision Making
         time_start: '11:00'
         time_end: '11:30'
-        speaker: 'Marcello Ienca'
+        speaker: 'Carina Ines Hausladen'
       - name: Ontological Foundations of a Digital Society
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Andrej Zwitter'
-      - name: Surprise Talk
+      - name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
         time_start: '12:00'
         time_end: '12:30'
-        speaker: 'Surprise Speaker'
-      - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
+        speaker: 'Sachit Mahajan'
+      - name: Traffic of Many Autonomous Drones in 2+ Dimensions
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Tamas Vicsek'
@@ -215,7 +219,7 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefan Lämmer'
-      - name: Social Artificial Intelligence (v)
+      - name: Social Artificial Intelligence
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Nicholas Christakis'
@@ -245,7 +249,7 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Regula Hänggli'
-      - name: Rationality in Social Decision Making  (v)
+      - name: Rationality in Social Decision Making 
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Richard Mann'
@@ -257,7 +261,7 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Hantao Zhao'
-      - name: Modeling the Global Economy (v)
+      - name: Modeling the Global Economy
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Doyne Farmer'
@@ -269,7 +273,7 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Dino Carpentras'
-      - name: tbd - Frank Schweitzer
+      - name: Smart
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Frank Schweitzer'
