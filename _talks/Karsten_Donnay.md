@@ -6,4 +6,4 @@ categories:
   - Presentation
 ---
 
-From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
+How Could AI Change Politics?
