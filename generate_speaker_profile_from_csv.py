@@ -1,7 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - AllParticipants - 130125.csv")
-confirmed_speakers = df.loc[df["Will attend?"]=="Yes"]
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_sandbox_150125_v1.csv")
+# confirmed_speakers = df.loc[df["Will attend?"]=="Yes"]
 
 # print(confirmed_speakers)
 
@@ -10,9 +10,9 @@ import glob
 existing_files = glob.glob("_speakers/*.md")
 print(existing_files)
 
-for i, row in confirmed_speakers.iterrows():
+for i, row in df.iterrows():
 
-    string = f"--- \nname: {row['Firstname']} {row['Surname']} \nfirst_name: {row['Firstname']}\nlast_name: {row['Surname']} \n---"
+    string = f"--- \nname: {row['First Name']} {row['Last Name']} \nfirst_name: {row['First Name']}\nlast_name: {row['Last Name']} \n---"
     """
     Here we can add many more details that we scrape from the CSV
     like picture
@@ -23,11 +23,11 @@ for i, row in confirmed_speakers.iterrows():
     Just need to figure out how they will be displayed
     I think it is in _layouts speaker.html
     """
-    path = f"_speakers/{row['Firstname']}_{row['Surname']}.md"
+    path = f"_speakers/{row['First Name']}_{row['Last Name']}.md"
 
     if path not in existing_files:
         f = open(path, "a")
         f.write(string)
         f.close()
 
-print("There are", len(confirmed_speakers), "confirmed speakers")
+print("There are", len(df), "confirmed speakers")
