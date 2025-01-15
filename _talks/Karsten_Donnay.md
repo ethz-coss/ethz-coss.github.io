@@ -1,5 +1,5 @@
 --- 
-name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
+name: How Could AI Change Politics?
 speakers: 
   - Karsten Donnay
 categories:
