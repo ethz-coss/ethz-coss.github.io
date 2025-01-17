@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_sandbox_150125_v1.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_sandbox_170125_v1.csv")
 print(df)
 import glob
 
@@ -44,3 +44,7 @@ for i, row in df.iterrows():
 
 # print("There are", len(confirmed_speakers), "confirmed speakers")
 # print("There are", len(specified_talks), "specified talks")
+existing_speaker_files = set([x.strip("_speakers/") for x in glob.glob("_speakers/*.md")])
+existing_talk_files = set([x.strip("_talks/") for x in glob.glob("_talks/*.md")])
+print("speakers minus talks")
+print(existing_speaker_files.symmetric_difference(existing_talk_files))

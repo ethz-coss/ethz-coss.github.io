@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_sandbox_150125_v1.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_sandbox_170125_v1.csv")
 # confirmed_speakers = df.loc[df["Will attend?"]=="Yes"]
 
 # print(confirmed_speakers)
@@ -30,4 +30,5 @@ for i, row in df.iterrows():
         f.write(string)
         f.close()
 
-print("There are", len(df), "confirmed speakers")
+existing_files = glob.glob("_speakers/*.md")
+print("There are", len(existing_files), "confirmed speakers")
