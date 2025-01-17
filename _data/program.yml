@@ -171,6 +171,10 @@ Enhancing Urban Safety Through Advanced Analytics
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Peter Molnár'
+      - name: none
+        time_start: '17:30'
+        time_end: '18:00'
+        speaker: 'none none'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
@@ -226,8 +230,8 @@ Enhancing Urban Safety Through Advanced Analytics
         time_end: '17:30'
         speaker: 'Nicholas Christakis'
       - name: City Size Inequality Increases with Economic Development
-        time_start: '18:00'
-        time_end: '18:30'
+        time_start: '17:30'
+        time_end: '18:00'
         speaker: 'Andrea Musso'
 - name: Friday
   abbr: Fri
@@ -283,3 +287,7 @@ Enhancing Urban Safety Through Advanced Analytics
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Frank Schweitzer'
+      - name: none
+        time_start: '17:30'
+        time_end: '18:00'
+        speaker: 'none none'
