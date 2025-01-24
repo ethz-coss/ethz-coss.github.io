@@ -165,14 +165,6 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefano Balietti'
-      - name: none
-        time_start: '17:00'
-        time_end: '17:30'
-        speaker: 'none none'
-      - name: none
-        time_start: '17:30'
-        time_end: '18:00'
-        speaker: 'none none'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
@@ -285,7 +277,3 @@ days:
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Frank Schweitzer'
-      - name: none
-        time_start: '17:30'
-        time_end: '18:00'
-        speaker: 'none none'
