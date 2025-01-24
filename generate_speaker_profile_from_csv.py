@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_sandbox_170125_v1.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_240125_v1.csv")
 # confirmed_speakers = df.loc[df["Will attend?"]=="Yes"]
 
 # print(confirmed_speakers)

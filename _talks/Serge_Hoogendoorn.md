@@ -1,9 +1,9 @@
 --- 
-name: tbd - Serge Hoogendoorn
+name: Active Modes in Future Cities - (Data-) Challenges and Prospects
 speakers: 
   - Serge Hoogendoorn
 categories:
   - Presentation
 ---
 
-tbd - Serge Hoogendoorn
+Active Modes in Future Cities - (Data-) Challenges and Prospects

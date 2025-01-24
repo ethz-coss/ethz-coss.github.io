@@ -29,7 +29,7 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Tina Comes'
-      - name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
+      - name: How Could AI Change Politics?
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Karsten Donnay'
@@ -75,7 +75,7 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Evangelos Pournaras'
-      - name: tbd - Thomas Maillart
+      - name: Letting Go to Take Hold - Shaping Future Societies through Special Kairos Moments
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Thomas Maillart'
@@ -137,7 +137,7 @@ days:
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Efrat Blumenfeld'
-      - name: tbd - Serge Hoogendoorn
+      - name: Active Modes in Future Cities - (Data-) Challenges and Prospects
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Serge Hoogendoorn'
@@ -165,10 +165,14 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefano Balietti'
-      - name: AI and Data Science in Law Enforcement - Enhancing Urban Safety Through Advanced Analytics
+      - name: none
         time_start: '17:00'
         time_end: '17:30'
-        speaker: 'Peter Molnár'
+        speaker: 'none none'
+      - name: none
+        time_start: '17:30'
+        time_end: '18:00'
+        speaker: 'none none'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
@@ -281,3 +285,7 @@ days:
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Frank Schweitzer'
+      - name: none
+        time_start: '17:30'
+        time_end: '18:00'
+        speaker: 'none none'

@@ -1,9 +1,9 @@
 --- 
-name: tbd - Thomas Maillart
+name: Letting Go to Take Hold - Shaping Future Societies through Special Kairos Moments
 speakers: 
   - Thomas Maillart
 categories:
   - Presentation
 ---
 
-tbd - Thomas Maillart
+Letting Go to Take Hold - Shaping Future Societies through Special Kairos Moments

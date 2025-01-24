@@ -1,9 +1,9 @@
 --- 
-name: tbd - Christoph Hölscher
+name: Architectural Cognition - Human-centric Evidence for Design
 speakers: 
   - Christoph Hölscher
 categories:
   - Presentation
 ---
 
-tbd - Christoph Hölscher
+Architectural Cognition - Human-centric Evidence for Design
