@@ -25,10 +25,10 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Paul Lukowicz'
-      - name: Decision-Centred AI.  On the Human-AI Interaction for Wicked Problems
+      - name: From FutureICT to FuturICT 2.0
         time_start: '12:00'
         time_end: '12:30'
-        speaker: 'Tina Comes'
+        speaker: 'Jose Jacob Kalayil'
       - name: How Could AI Change Politics?
         time_start: '14:00'
         time_end: '14:30'
@@ -37,10 +37,10 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Nino Antulov-Fantulin'
-      - name: The Algorithm Game
+      - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
         time_start: '15:00'
         time_end: '15.30'
-        speaker: 'Cesare Carissimo'
+        speaker: 'Andreas Diekmann'
       - name: Network Science and Smarter Society 
         time_start: '16:00'
         time_end: '16:30'
@@ -53,10 +53,6 @@ days:
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Carlos Gershenson'
-      - name: From FutureICT to FuturICT 2.0
-        time_start: '17:30'
-        time_end: '17:45'
-        speaker: 'Jose Jacob Kalayil'
 - name: Tuesday
   abbr: Tue
   date: 2025-02-11
@@ -79,7 +75,7 @@ days:
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Thomas Maillart'
-      - name: tbd - Rosy Mondardini
+      - name: Citizen Engagement – Stumbling Block or Priceless Opportunity?
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Rosy Mondardini'
@@ -87,14 +83,14 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Gerhard Schmitt'
-      - name: Modeling and Decision Making in Complex Societies
+      - name: Better Science for a Better World
         time_start: '14:00'
         time_end: '14:30'
-        speaker: 'Alessandro Vespignani'
-      - name: Better Science for a Better World
+        speaker: 'Santo Fortunato'
+      - name: Social Resilience
         time_start: '14:30'
         time_end: '15:00'
-        speaker: 'Santo Fortunato'
+        speaker: 'Hans J. Herrmann'
       - name: The Ring of Brownian Motion. Its Beneficial Use for Physics and Elsewhere
         time_start: '15:00'
         time_end: '15.30'
@@ -107,10 +103,10 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Nikolas Geroliminis'
-      - name: Social Resilience
+      - name: Modeling and Decision Making in Complex Societies
         time_start: '17:00'
         time_end: '17:30'
-        speaker: 'Hans J. Herrmann'
+        speaker: 'Alessandro Vespignani'
       - name: Circular Economy, Back to Holistic Product Design
         time_start: '17:30'
         time_end: '18:00'
@@ -121,10 +117,10 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: Simulating the Future City - Where AI Meets Design
+      - name: Decision-Centred AI.  On the Human-AI Interaction for Wicked Problems
         time_start: '09:00'
         time_end: '09:30'
-        speaker: 'Michael Batty'
+        speaker: 'Tina Comes'
       - name: Can we Make the Co-Evolution of Cities Smarter?
         time_start: '09:30'
         time_end: '10:00'
@@ -157,24 +153,28 @@ days:
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Trivik Verma'
-      - name: Democratasing Traffic Signal Control
+      - name: Development and Stability - Resolving a Paradox of Social Change (in Cities)
         time_start: '16:00'
         time_end: '16:30'
-        speaker: 'Damian Dailisan'
+        speaker: 'Luis Bettencourt'
       - name: Decentralized Autonomous Organizations (DAOs) - Challenges and Opportunities
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefano Balietti'
+      - name: Democratasing Traffic Signal Control
+        time_start: '17:00'
+        time_end: '17:30'
+        speaker: 'Damian Dailisan'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
   rooms:
   - name: LEE E 101
     talks:
-      - name: Economic Crime as a Social Phenomenon
+      - name: Ontological Foundations of a Digital Society
         time_start: '09:00'
         time_end: '09:30'
-        speaker: 'János Kertész'
+        speaker: 'Andrej Zwitter'
       - name: New Tools for Urban Regeneration 
         time_start: '09:30'
         time_end: '10:00'
@@ -187,10 +187,6 @@ days:
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Carina Ines Hausladen'
-      - name: Ontological Foundations of a Digital Society
-        time_start: '11:30'
-        time_end: '12:00'
-        speaker: 'Andrej Zwitter'
       - name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
         time_start: '12:00'
         time_end: '12:30'
@@ -229,14 +225,14 @@ days:
   rooms:
   - name: LEE E 101
     talks:
-      - name: Environmental Inequality in European Cities. Empirical Analysis with Geo-Referenced Data
+      - name: Mechanisms for Cooperation
         time_start: '09:00'
         time_end: '09:30'
-        speaker: 'Andreas Diekmann'
-      - name: Mechanisms for Cooperation
+        speaker: 'Heinrich Nax'
+      - name: The Algorithm Game
         time_start: '09:30'
         time_end: '10:00'
-        speaker: 'Heinrich Nax'
+        speaker: 'Cesare Carissimo'
       - name: Smarter Societies at the Brink of Climate Emergency? 
         time_start: '10:00'
         time_end: '10:30'
