@@ -11,24 +11,25 @@ existing_files = glob.glob("_speakers/*.md")
 print(existing_files)
 
 for i, row in df.iterrows():
+    talk_title = str(row["Tentative Title"])
+    if talk_title != "nan" and talk_title != "" and talk_title != " " and talk_title != "none":  # check if not NaN
+        string = f"--- \nname: {row['First Name']} {row['Last Name']} \nfirst_name: {row['First Name']}\nlast_name: {row['Last Name']} \n---"
+        """
+        Here we can add many more details that we scrape from the CSV
+        like picture
+        tentative title
+        webpage urls
+        University Affiliations
+        etc
+        Just need to figure out how they will be displayed
+        I think it is in _layouts speaker.html
+        """
+        path = f"_speakers/{row['First Name']}_{row['Last Name']}.md"
 
-    string = f"--- \nname: {row['First Name']} {row['Last Name']} \nfirst_name: {row['First Name']}\nlast_name: {row['Last Name']} \n---"
-    """
-    Here we can add many more details that we scrape from the CSV
-    like picture
-    tentative title
-    webpage urls
-    University Affiliations
-    etc
-    Just need to figure out how they will be displayed
-    I think it is in _layouts speaker.html
-    """
-    path = f"_speakers/{row['First Name']}_{row['Last Name']}.md"
-
-    if path not in existing_files:
-        f = open(path, "a")
-        f.write(string)
-        f.close()
+        if path not in existing_files:
+            f = open(path, "a")
+            f.write(string)
+            f.close()
 
 existing_files = glob.glob("_speakers/*.md")
 print("There are", len(existing_files), "confirmed speakers")
