@@ -175,14 +175,14 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Vittorio Loreto'
-      - name: Human Choices and AI Collective Decision Making
+      - name: Bridging Voting and Citizen Deliberations With Algorithms
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Joshua Yang'
-      - name: The Art of Legitimate Decision Making
+      - name: Established Democracy and (Non-) Participatory Approaches in Times of AI, Complexity, and Technological Change
         time_start: '11:00'
         time_end: '11:30'
-        speaker: 'Carina Ines Hausladen'
+        speaker: 'Regula Hänggli'
       - name: Letting Go to Take Hold - Shaping Future Societies through Special Kairos Moments
         time_start: '11:30'
         time_end: '12:00'
@@ -191,7 +191,7 @@ days:
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Sachit Mahajan'
-      - name: Traffic of Many Autonomous Drones in 2+ Dimensions
+      - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
         time_start: '14:00'
         time_end: '14:30'
         speaker: 'Tamas Vicsek'
@@ -211,7 +211,7 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefan Lämmer'
-      - name: Social Artificial Intelligence
+      - name: Social Artificial Intelligence (v)
         time_start: '17:00'
         time_end: '17:30'
         speaker: 'Nicholas Christakis'
@@ -241,11 +241,11 @@ days:
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Mario Paolucci'
-      - name: Established Democracy and (Non-)Participatory Approaches, AI, complexity
+      - name: The Art of Legitimate Decision Making
         time_start: '11:30'
         time_end: '12:00'
-        speaker: 'Regula Hänggli'
-      - name: Rationality in Social Decision Making 
+        speaker: 'Carina Hausladen'
+      - name: Rationality in Social Decision Making  (v)
         time_start: '12:00'
         time_end: '12:30'
         speaker: 'Richard Mann'
@@ -257,7 +257,7 @@ days:
         time_start: '14:30'
         time_end: '15:00'
         speaker: 'Hantao Zhao'
-      - name: Modeling the Global Economy
+      - name: Modeling the Global Economy (v)
         time_start: '15:00'
         time_end: '15.30'
         speaker: 'Doyne Farmer'
