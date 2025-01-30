@@ -46,6 +46,7 @@ with open("_data/program.yml", "w") as file:
 
             talk_title = talk_title + virtual_tag
             print(talk_title)
+            print(speaker)
 
             talk_body = f"      - name: {talk_title}\n" \
                         f"        time_start: '{start_time}'\n" \

@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_300125.csv")
 print(df)
@@ -18,7 +19,7 @@ for i, row in df.iterrows():
         if talk_title != "nan" and talk_title != "" and talk_title != " " and talk_title != "none":  # check if not NaN
             virtual_tag = ""
             # print(row["virtual"])
-            if str(row['virtual']) == "True":
+            if str(row['virtual']) == "Virtual":
                 virtual_tag = " (v)"
 
             talk_title = str(row['Tentative Title']).replace(":", " -")
@@ -39,6 +40,12 @@ for i, row in df.iterrows():
             path = f"_talks/{row['First Name']}_{row['Last Name']}.md"
 
             if path not in existing_files:
+                f = open(path, "a")
+                f.write(string)
+                f.close()
+                print(path)
+            else:
+                os.remove(path)
                 f = open(path, "a")
                 f.write(string)
                 f.close()

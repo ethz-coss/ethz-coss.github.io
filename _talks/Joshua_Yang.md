@@ -1,9 +1,9 @@
 --- 
-name: Human Choices and AI Collective Decision Making
+name: Bridging Voting and Citizen Deliberations With Algorithms
 speakers: 
   - Joshua Yang
 categories:
   - Presentation
 ---
 
-Human Choices and AI Collective Decision Making
+Bridging Voting and Citizen Deliberations With Algorithms
