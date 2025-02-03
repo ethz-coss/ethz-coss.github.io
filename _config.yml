@@ -170,6 +170,8 @@ conference:
     navbar_title: 'Location'
     # Show map on location main page.  Set `map: false` if you don't want to
     # display it.
+    lat: 47.37616814220516
+    lng: 8.546753252441231
     map:
       # Initial map center point
       home_coord: 47.37616814220516, 8.546753252441231
