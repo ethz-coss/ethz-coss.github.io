@@ -1,25 +1,78 @@
 {% include partials/header.html %}
 
-  {% assign this_room = page %}
-
-  <h1 class="display-5 mb-3">
-    {% if page.title %}
-      {{ page.title }}
-    {% else %}
-      {{ site.data.lang[site.conference.lang].location.directions | default: "Directions" }}
-    {% endif %}
-  </h1>
-
-  {% assign this_room = page %}
-
-  {% unless site.conference.location.hide %}
-    {% include partials/navbar_rooms.html %}
-  {% endunless %}
-
-  {{ content }}
-
-  {% if site.conference.location.map %}
-    <div id="map" class="mt-4 mb-3"></div>
+<h1 class="display-5 mb-3">
+  {% if page.title %}
+    {{ page.title }}
+  {% else %}
+    {{ site.data.lang[site.conference.lang].location.directions | default: "Directions" }}
   {% endif %}
+</h1>
+
+{% unless site.conference.location.hide %}
+  {% include partials/navbar_rooms.html %}
+{% endunless %}
+
+{{ content }}
+
+{% if site.conference.location.map %}
+  <div id="map" class="mt-4 mb-3" style="height: 400px;"></div>
+
+  <!-- Legend -->
+  <div class="mt-2">
+    <h5>Legend:</h5>
+    <div>
+      <span style="color: red;">&#9679;</span> Main Venue
+      <span style="color: blue;">&#9679;</span> Attractions
+      <span style="color: green;">&#9679;</span> Activities
+      <span style="color: orange;">&#9679;</span> Restaurants
+      <span style="color: purple;">&#9679;</span> Bars
+    </div>
+  </div>
+
+  <!-- Locations List -->
+  <h4 class="mt-4">Places Nearby</h4>
+  <ul>
+    {% for place in site.data.location.places %}
+      <li>
+        <strong>{{ place.name }}</strong> -
+        <a href="{{ place.website }}" target="_blank">Visit Website</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
 {% include partials/footer.html %}
+
+<script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: { lat: site.conference.location.lat, lng: site.conference.location.lng },
+      zoom: 14
+    });
+
+    var locations = {{ site.data.location.places | jsonify }};
+    var colors = {
+      "venue": "red",
+      "attraction": "blue",
+      "activity": "green",
+      "restaurant": "orange",
+      "bar": "purple"
+    };
+
+    locations.forEach(function(place) {
+      new google.maps.Marker({
+        position: { lat: place.lat, lng: place.lng },
+        map: map,
+        title: place.name,
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 8,
+          fillColor: colors[place.type],
+          fillOpacity: 1,
+          strokeWeight: 1
+        }
+      });
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
