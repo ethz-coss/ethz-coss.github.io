@@ -63,21 +63,25 @@
 </div>
 
 
-<!-- Mobile View (List) -->
+<!-- Mobile List View -->
 <div class="d-block d-md-none">
   {% for d in site.data.program.days %}
-    <h4 class="mt-4">{{ d.name }} ({{ d.date }})</h4>
+    <h4 class="mt-4 mb-3">{{ d.name }} ({{ d.date }})</h4> <!-- Added bottom margin -->
     {% for room in d.rooms %}
       {% for t in room.talks %}
         {%- assign talk = site.talks | where: 'name', t.name | first -%}
-        <div class="card mb-2">
+        <div class="card mb-3">
           <div class="card-body">
             <h5 class="card-title">{% include partials/show_talk.html %}</h5>
             <h6 class="card-subtitle text-muted">{{ t.speaker }}</h6>
-            <p class="card-text">{{ t.time_start }} - {{ t.time_end }}</p>
+            <p class="card-text">
+              <strong>Day:</strong> {{ d.name }} ({{ d.date }})<br> <!-- Added day info -->
+              <strong>Time:</strong> {{ t.time_start }} - {{ t.time_end }}
+            </p>
           </div>
         </div>
       {% endfor %}
     {% endfor %}
   {% endfor %}
 </div>
+
