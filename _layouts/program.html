@@ -1,4 +1,19 @@
-<!-- Desktop View (Table) -->
+{% include partials/header.html %}
+  {% assign nbr_days = site.data.program.days | size -%}
+
+  <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %}">
+    {%- if page.title -%}
+      {{- page.title -}}
+    {%- else -%}
+      {{- site.data.lang[site.conference.lang].program.title | default: "Program" -}}
+    {%- endif -%}
+  </h1>
+
+  {{ content }}
+
+{% assign time_slots = "09:00,09:30,10:00,10:30,11:00,11:30,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00,17:30" | split: "," %}
+
+<!-- Desktop Table View -->
 <div class="d-none d-md-block">
   <div class="table-responsive">
     <table class="table table-bordered">
@@ -46,6 +61,7 @@
     </table>
   </div>
 </div>
+
 
 <!-- Mobile View (List) -->
 <div class="d-block d-md-none">
