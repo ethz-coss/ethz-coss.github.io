@@ -1,93 +1,67 @@
-{% include partials/header.html %}
-  {% assign nbr_days = site.data.program.days | size -%}
-
-  <h1 class="display-5 {% if nbr_days > 1 -%} mb-2 {%- else -%} mb-4 {%- endif %}">
-    {%- if page.title -%}
-      {{- page.title -}}
-    {%- else -%}
-      {{- site.data.lang[site.conference.lang].program.title | default: "Program" -}}
-    {%- endif -%}
-  </h1>
-
-  {{ content }}
-
-{% assign time_slots = "09:00,09:30,10:00,10:30,11:00,11:30,12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00,17:30" | split: "," %}
-
-<div class="table-responsive">
-  <table class="table table-bordered" style="width: auto; table-layout: auto;">
-    <thead>
-      <tr>
-        <!-- First column for the time slots -->
-        <th scope="col" class="text-center" style="width: auto; white-space: nowrap;">Time</th>
-
-        <!-- Generate a column for each day -->
-        {%- assign nbr_days = site.data.program.days | size -%}
-        {%- for d in site.data.program.days -%}
-          <!-- Each day column will auto-adjust width -->
-          <th scope="col" class="text-center" style="width: auto;">{{ d.name }} ({{ d.date }})</th>
-        {%- endfor -%}
-      </tr>
-    </thead>
-
-    <tbody>
-      <!-- Loop over the pre-defined time slots -->
-      {% for current_time in time_slots %}
+<!-- Desktop View (Table) -->
+<div class="d-none d-md-block">
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
         <tr>
-          <!-- Display the current time on the left-most column -->
-          <th scope="row" class="text-center" style="width: auto, white-space: nowrap;">
-            {% if current_time == "10:30" %}
-              <strong>Break</strong>
-            {% elsif current_time == "12:30" or current_time == "13:00" or current_time == "13:30" %}
-              <strong>Lunch</strong>
-            {% elsif current_time == "15:30" %}
-              <strong>Break</strong>
-            {% else %}
-              {{ current_time }}
-            {% endif %}
-          </th>
-
-          <!-- Loop over each day -->
+          <th scope="col" class="text-center">Time</th>
           {%- for d in site.data.program.days -%}
-            <td class="text-center" style="width: auto;">
-              <!-- Loop over the rooms of the current day -->
-              {% for room in d.rooms %}
-                <!-- Loop over the talks in the current room -->
-                {% for t in room.talks %}
-                  {%- assign talk = site.talks | where: 'name', t.name | first -%}
-                  {% if current_time == t.time_start %}
-                    <div class="alert alert-info">
-                      <!-- Link the talk title to its corresponding talk page -->
-                      <strong>
-<!--                        <a href="{{ talk.url | relative_url }}">-->
-<!--                          {{ talk.name }}-->
-<!--                        </a>-->
-                        {% include partials/show_talk.html %}
-                      </strong><br>
-                      <em>{{ t.speaker }}</em><br>
-                      {{ t.time_start }} - {{ t.time_end }}
-                    </div>
-                  {% endif %}
-                {% endfor %}
-              {% endfor %}
-            </td>
+            <th scope="col" class="text-center">{{ d.name }} ({{ d.date }})</th>
           {%- endfor -%}
         </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        {% for current_time in time_slots %}
+          <tr>
+            <th scope="row" class="text-center">
+              {% if current_time == "10:30" %}
+                <strong>Break</strong>
+              {% elsif current_time == "12:30" or current_time == "13:00" or current_time == "13:30" %}
+                <strong>Lunch</strong>
+              {% elsif current_time == "15:30" %}
+                <strong>Break</strong>
+              {% else %}
+                {{ current_time }}
+              {% endif %}
+            </th>
+            {%- for d in site.data.program.days -%}
+              <td class="text-center">
+                {% for room in d.rooms %}
+                  {% for t in room.talks %}
+                    {%- assign talk = site.talks | where: 'name', t.name | first -%}
+                    {% if current_time == t.time_start %}
+                      <div class="alert alert-info">
+                        <strong>{% include partials/show_talk.html %}</strong><br>
+                        <em>{{ t.speaker }}</em><br>
+                        {{ t.time_start }} - {{ t.time_end }}
+                      </div>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+            {%- endfor -%}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </div>
 
-
-
-
-
-  {%- if site.conference.talks.main_categories %}
-    <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "BackToTheFuture" }}</h5>
-      {%- for main_cat in site.conference.talks.main_categories %}
-        <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">
-          {{- main_cat.name -}}
+<!-- Mobile View (List) -->
+<div class="d-block d-md-none">
+  {% for d in site.data.program.days %}
+    <h4 class="mt-4">{{ d.name }} ({{ d.date }})</h4>
+    {% for room in d.rooms %}
+      {% for t in room.talks %}
+        {%- assign talk = site.talks | where: 'name', t.name | first -%}
+        <div class="card mb-2">
+          <div class="card-body">
+            <h5 class="card-title">{% include partials/show_talk.html %}</h5>
+            <h6 class="card-subtitle text-muted">{{ t.speaker }}</h6>
+            <p class="card-text">{{ t.time_start }} - {{ t.time_end }}</p>
+          </div>
         </div>
-      {%- endfor -%}
-  {%- endif -%}
-
-{% include partials/footer.html %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+</div>
