@@ -15,6 +15,7 @@
 {{ content }}
 
 {% if site.conference.location.map %}
+  <!-- Map Container -->
   <div id="map" class="mt-4 mb-3" style="height: 400px;"></div>
 
   <!-- Legend -->
@@ -43,12 +44,18 @@
 
 {% include partials/footer.html %}
 
+<!-- Leaflet.js (OpenStreetMap) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <script>
-  function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-      center: { lat: site.conference.location.lat, lng: site.conference.location.lng },
-      zoom: 14
-    });
+  document.addEventListener("DOMContentLoaded", function () {
+    var map = L.map('map').setView([{{ site.conference.location.lat }}, {{ site.conference.location.lng }}], 14);
+
+    // Load OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
     var locations = {{ site.data.location.places | jsonify }};
     var colors = {
@@ -60,19 +67,13 @@
     };
 
     locations.forEach(function(place) {
-      new google.maps.Marker({
-        position: { lat: place.lat, lng: place.lng },
-        map: map,
-        title: place.name,
-        icon: {
-          path: google.maps.SymbolPath.CIRCLE,
-          scale: 8,
-          fillColor: colors[place.type],
-          fillOpacity: 1,
-          strokeWeight: 1
-        }
-      });
+      L.circleMarker([place.lat, place.lng], {
+        color: colors[place.type],
+        fillColor: colors[place.type],
+        fillOpacity: 0.8,
+        radius: 8
+      }).addTo(map)
+      .bindPopup(`<strong>${place.name}</strong><br><a href="${place.website}" target="_blank">Visit Website</a>`);
     });
-  }
+  });
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
