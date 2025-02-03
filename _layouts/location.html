@@ -44,36 +44,4 @@
 
 {% include partials/footer.html %}
 
-<!-- Leaflet.js (OpenStreetMap) -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var map = L.map('map').setView([{{ site.conference.location.lat }}, {{ site.conference.location.lng }}], 14);
-
-    // Load OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    var locations = {{ site.data.location.places | jsonify }};
-    var colors = {
-      "venue": "red",
-      "attraction": "blue",
-      "activity": "green",
-      "restaurant": "orange",
-      "bar": "purple"
-    };
-
-    locations.forEach(function(place) {
-      L.circleMarker([place.lat, place.lng], {
-        color: colors[place.type],
-        fillColor: colors[place.type],
-        fillOpacity: 0.8,
-        radius: 8
-      }).addTo(map)
-      .bindPopup(`<strong>${place.name}</strong><br><a href="${place.website}" target="_blank">Visit Website</a>`);
-    });
-  });
-</script>
+{% include map.js %}
