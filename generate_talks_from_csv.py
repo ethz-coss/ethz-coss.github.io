@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_300125.csv")
+df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_040225.csv")
 print(df)
 import glob
 

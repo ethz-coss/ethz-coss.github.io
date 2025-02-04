@@ -1,9 +1,9 @@
 --- 
-name: How on Demand Transport can Cooperate with Public Transportation for City Mobility
+name: Hierarchical Control for Large-Scale Mobility Systems
 speakers: 
   - Nikolas Geroliminis
 categories:
   - Presentation
 ---
 
-How on Demand Transport can Cooperate with Public Transportation for City Mobility
+Hierarchical Control for Large-Scale Mobility Systems

@@ -1,7 +1,7 @@
 --- 
 name: Smarter Societies at the Brink of Climate Emergency? 
 speakers: 
-  - Viktoria Spaiser Mann
+  - Viktoria Spaiser
 categories:
   - Presentation
 ---

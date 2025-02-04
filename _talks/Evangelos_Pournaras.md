@@ -1,9 +1,9 @@
 --- 
-name: Digitally-Assisted Collective Governance of Smart City Commons
+name: Unraveling Voting Impact and its Novelty
 speakers: 
   - Evangelos Pournaras
 categories:
   - Presentation
 ---
 
-Digitally-Assisted Collective Governance of Smart City Commons
+Unraveling Voting Impact and its Novelty

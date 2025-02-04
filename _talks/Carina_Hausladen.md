@@ -1,7 +1,7 @@
 --- 
 name: The Art of Legitimate Decision Making
 speakers: 
-  - Carina Ines Hausladen
+  - Carina Hausladen
 categories:
   - Presentation
 ---
