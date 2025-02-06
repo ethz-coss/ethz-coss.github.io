@@ -44,8 +44,28 @@ places:
         lng: 8.548836151
         type: attraction
         website: 'https://www.kunsthaus.ch/'
-      - name: Main Venue
+      - name: LEE E 101
         lat: 47.37813449
         lng: 8.545971869
         type: venue
         website: 'https://maps.app.goo.gl/Sx8i7ccxpoezTyteA'
+      - name: Bombay Karachi
+        lat: 47.37934101
+        lng: 8.543484102
+        type: restaurant
+        website: 'https://bombaykarachi.com/'
+      - name: Kleine Freiheit
+        lat: 47.37919236
+        lng: 8.544534031
+        type: restaurant
+        website: 'https://kleinefreiheit.ch/'
+      - name: Orient World
+        lat: 47.37882446
+        lng: 8.545202607
+        type: restaurant
+        website: 'https://orientworld.ch/'
+      - name: Dozentenfoyer
+        lat: 47.37637106
+        lng: 8.547470976
+        type: restaurant
+        website: 'https://ethz.ch/de/campus/erleben/gastronomie-und-einkaufen/gastronomie/restaurants-und-cafeterias/zentrum/dozentenfoyer.html'
