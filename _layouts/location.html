@@ -31,13 +31,51 @@
   </div>
 
   <!-- Locations List -->
-  <h4 class="mt-4">Places Nearby</h4>
+  <h4 class="mt-4">Venue</h4>
   <ul>
     {% for place in site.data.location.places %}
-      <li>
-        <strong>{{ place.name }}</strong> -
-        <a href="{{ place.website }}" target="_blank">Visit Website</a>
-      </li>
+      {% if place.type == "venue" %}
+        <li>
+          <strong>{{ place.name }}</strong> -
+          <a href="{{ place.website }}" target="_blank">Visit Website</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h4 class="mt-4">Restaurants</h4>
+  <ul>
+    {% for place in site.data.location.places %}
+      {% if place.type == "restaurants" %}
+        <li>
+          <strong>{{ place.name }}</strong> -
+          <a href="{{ place.website }}" target="_blank">Visit Website</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h4 class="mt-4">Attractions</h4>
+  <ul>
+    {% for place in site.data.location.places %}
+      {% if place.type == "attraction" %}
+        <li>
+          <strong>{{ place.name }}</strong> -
+          <a href="{{ place.website }}" target="_blank">Visit Website</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h4 class="mt-4">Attractions</h4>
+  <ul>
+    {% for place in site.data.location.places %}
+      {% if place.type == "activity" %}
+        <li>
+          <strong>{{ place.name }}</strong> -
+          <a href="{{ place.website }}" target="_blank">Visit Website</a>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 {% endif %}
