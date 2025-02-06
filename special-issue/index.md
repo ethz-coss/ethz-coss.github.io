@@ -16,7 +16,7 @@ Here are two thematically related collections of publications you may also be in
 <li> Theme Issue on <a href="https://royalsocietypublishing.org/toc/rsta/2024/382/2285"> Co-Creating the Future: Participatory Cities and Digital Governance </a> </li>
 </ol>
 
-<img src="../special_issue_screenshot.png" alt="logo" width="500" href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2024.0113"/>
+<a href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2024.0113"> <img src="../special_issue_screenshot.png" alt="logo" width="500" /> </a>
 
 This workshop is partially supported by the project CoCi – Co-Evolving City Life, which has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (grant agreement No 833168).
 
