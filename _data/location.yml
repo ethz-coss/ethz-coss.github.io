@@ -69,3 +69,8 @@ places:
         lng: 8.547470976
         type: restaurant
         website: 'https://ethz.ch/de/campus/erleben/gastronomie-und-einkaufen/gastronomie/restaurants-und-cafeterias/zentrum/dozentenfoyer.html'
+      - name: Linde
+        lat: 47.383426199659134
+        lng: 8.548041453447038
+        type: restaurante
+        website: 'http://www.linde-oberstrass.ch/'
