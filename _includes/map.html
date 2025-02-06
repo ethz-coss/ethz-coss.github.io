@@ -4,7 +4,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var map = L.map('map').setView([{{ site.conference.location.lat }}, {{ site.conference.location.lng }}], 14);
+    var map = L.map('map').setView([{{ site.conference.location.lat }}, {{ site.conference.location.lng }}], 16);
 
     // Load OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
