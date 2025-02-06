@@ -9,9 +9,11 @@ A link for submissions will be shared around the time of the workshop.
 
 Here are two thematically related collections of publications you may also be interested in:
 
-Special Issue on <a href="https://link.springer.com/collections/hefadbghfh"> Ethics of Smart Cities and Smart Societies </a>  
+<ol>
+<li> Special Issue on <a href="https://link.springer.com/collections/hefadbghfh"> Ethics of Smart Cities and Smart Societies </a> </li>  
 
-Theme Issue on <a href="https://royalsocietypublishing.org/toc/rsta/2024/382/2285"> Co-Creating the Future: Participatory Cities and Digital Governance </a>
+<li> Theme Issue on <a href="https://royalsocietypublishing.org/toc/rsta/2024/382/2285"> Co-Creating the Future: Participatory Cities and Digital Governance </a> </li>
+</ol>
 
 <img src="../special_issue_screenshot.png" alt="logo" width="500"/>
 
