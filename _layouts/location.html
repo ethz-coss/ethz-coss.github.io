@@ -46,7 +46,7 @@
   <h4 class="mt-4">Restaurants</h4>
   <ul>
     {% for place in site.data.location.places %}
-      {% if place.type == "restaurants" %}
+      {% if place.type == "restaurant" %}
         <li>
           <strong>{{ place.name }}</strong> -
           <a href="{{ place.website }}" target="_blank">Visit Website</a>
