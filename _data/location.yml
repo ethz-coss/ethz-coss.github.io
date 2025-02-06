@@ -72,5 +72,5 @@ places:
       - name: Linde
         lat: 47.383426199659134
         lng: 8.548041453447038
-        type: restaurante
+        type: restaurant
         website: 'http://www.linde-oberstrass.ch/'
