@@ -1,9 +1,9 @@
 --- 
-name: Urban Planing the Unconventional, the Unintuitive, and the Unexpected
+name: Urban Planning the Unconventional, the Unintuitive, and the Unexpected
 speakers: 
   - Javier Argota Sánchez-Vaquerizo
 categories:
   - Presentation
 ---
 
-Urban Planing the Unconventional, the Unintuitive, and the Unexpected
+Urban Planning the Unconventional, the Unintuitive, and the Unexpected

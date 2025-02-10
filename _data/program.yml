@@ -121,15 +121,15 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Denise Pumain'
-      - name: Urban Planing the Unconventional, the Unintuitive, and the Unexpected
+      - name: Urban Planning the Unconventional, the Unintuitive, and the Unexpected
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Javier Argota Sánchez-Vaquerizo'
-      - name: Can Urban Planners Tame Urban Traffic Congestion with Digital Era Solutions?
+      - name: Cooperative and Adaptable Street Spaces
         time_start: '11:00'
         time_end: '11:30'
-        speaker: 'Efrat Blumenfeld'
-      - name: Active Modes in Future Cities - (Data-) Challenges and Prospects
+        speaker: 'Rohit Dubey'
+      - name: Active Modes in Future Cities - (Data) Challenges and Prospects
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Serge Hoogendoorn'
@@ -157,6 +157,10 @@ days:
         time_start: '16:30'
         time_end: '17:00'
         speaker: 'Stefano Balietti'
+      - name: Decoding Eurovision Song Contest - Learning and Irrational Behaviour
+        time_start: '17:00'
+        time_end: '17:30'
+        speaker: 'Arthur Capozzi'
 - name: Thursday
   abbr: Thu
   date: 2025-02-13
@@ -175,7 +179,7 @@ days:
         time_start: '10:00'
         time_end: '10:30'
         speaker: 'Joshua Yang'
-      - name: Established Democracy and (Non-) Participatory Approaches in Times of AI, Complexity, and Technological Change
+      - name: Established Democracy and (Non) Participatory Approaches in Times of AI, Complexity, and Technological Change
         time_start: '11:00'
         time_end: '11:30'
         speaker: 'Regula Hänggli'

@@ -5,7 +5,7 @@ import pandas as pd
 
 
 if __name__ == "__main__":
-    df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_060225.csv")
+    df = pd.read_csv("/Users/ccarissimo/ethz-coss.github.io/February 2025 Participants - schedule_100225.csv")
 
     update_speakers(df)
     update_talks(df)
