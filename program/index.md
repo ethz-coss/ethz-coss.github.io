@@ -2,4 +2,4 @@
 layout: program
 ---
 
-This is a tentative program.
+The complete program for our Workshop.
