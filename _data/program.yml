@@ -175,10 +175,10 @@ days:
         time_start: '09:30'
         time_end: '10:00'
         speaker: 'Vittorio Loreto'
-      - name: Bridging Voting and Citizen Deliberations With Algorithms
+      - name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
         time_start: '10:00'
         time_end: '10:30'
-        speaker: 'Joshua Yang'
+        speaker: 'Sachit Mahajan'
       - name: Established Democracy and (Non) Participatory Approaches in Times of AI, Complexity, and Technological Change
         time_start: '11:00'
         time_end: '11:30'
@@ -187,10 +187,10 @@ days:
         time_start: '11:30'
         time_end: '12:00'
         speaker: 'Thomas Maillart'
-      - name: From Data to Democracy - Open-Source Pathways for Inclusive Urban Futures
+      - name: Bridging Voting and Citizen Deliberations With Algorithms
         time_start: '12:00'
         time_end: '12:30'
-        speaker: 'Sachit Mahajan'
+        speaker: 'Joshua Yang'
       - name: Traffic of Many Autonomous Drones in 2+ Dimensions (v)
         time_start: '14:00'
         time_end: '14:30'
