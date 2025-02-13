@@ -1,9 +1,9 @@
 --- 
-name: Human Values in Complex systems
+name: Tigers and Topologies - When survival means sharing
 speakers: 
   - Indushree Banerjee
 categories:
   - Presentation
 ---
 
-Human Values in Complex systems
+Tigers and Topologies - When survival means sharing
