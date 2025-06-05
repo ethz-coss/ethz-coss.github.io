@@ -9,8 +9,8 @@ will feature work on the subject “Smarter Cities and Societies: What We Can an
 The submission deadline for invited manuscripts is 31st of July 2025. Earlier submissions are welcome.
 We very much look forward to receiving your original manuscripts. While preparing
 them, please consider the scope of the journal 
-<a href=https://epjdatascience.springeropen.com/about> (link) </a>
-and the scope of our Special Issue <a href=https://link.springer.com/collections/gcjiahdghf> (link) </a>.
+<a href="https://epjdatascience.springeropen.com/about"> (link) </a>
+and the scope of our Special Issue <a href="https://link.springer.com/collections/gcjiahdghf"> (link) </a>.
  
 Ideally, please also address the question <strong>„What we can and cannot optimize for“</strong>.
 Besides a discussion of what <em><strong> can </strong></em> be done with data science approaches or computer
