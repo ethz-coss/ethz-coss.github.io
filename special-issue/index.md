@@ -4,7 +4,21 @@ layout: default
 
 A Special Issue of 
 <a href="https://epjdatascience.springeropen.com/"> EPJ Data Science </a> 
-on “Smarter Cities and Societies: What We Can and Cannot Optimize For” will feature work presented at this event.
+will feature work on the subject “Smarter Cities and Societies: What We Can and Cannot Optimize For”.
+
+The submission deadline for invited manuscripts is 31st of July 2025. Earlier submissions are welcome.
+We very much look forward to receiving your original manuscripts. While preparing
+them, please consider the scope of the journal 
+<a href=https://epjdatascience.springeropen.com/about> (link) </a>
+and the scope of our Special Issue <a href=https://link.springer.com/collections/gcjiahdghf> (link) </a>.
+ 
+Ideally, please also address the question <strong>„What we can and cannot optimize for“</strong>.
+Besides a discussion of what <em><strong> can </strong></em> be done with data science approaches or computer
+simulations, you are encouraged to address <em><strong> limitations </strong></em>, such as ethical or cultural issues, 
+values, or qualities like human dignity. It could also mean that we need a multi-dimensional 
+and co-evolutionary approach to promote thriving cities and societies - or anything else you 
+might think of. For example, you may discuss limitations of a data science approach, 
+of optimization, of computational possibilities, simulation or prediction attempts.
 
 The link for submission is now available <a href="https://link.springer.com/collections/gcjiahdghf"> SUMBIT </a>
 
