@@ -6,7 +6,7 @@ A Special Issue of
 <a href="https://epjdatascience.springeropen.com/"> EPJ Data Science </a> 
 will feature work on the subject “Smarter Cities and Societies: What We Can and Cannot Optimize For”.
 
-The submission deadline for invited manuscripts is 31st of July 2025. Earlier submissions are welcome.
+The submission deadline for invited manuscripts has been extended to the 31st of August 2025. Earlier submissions are welcome.
 We very much look forward to receiving your original manuscripts. While preparing
 them, please consider the scope of the journal 
 <a href="https://epjdatascience.springeropen.com/about"> (link) </a>
